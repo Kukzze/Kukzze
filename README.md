@@ -20,7 +20,7 @@
 
 ---
 
-### 🚀 Featured Platforms & Products
+###  Featured Platforms & Products
 
 <table>
   <tr>
