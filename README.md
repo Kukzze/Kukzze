@@ -1,5 +1,5 @@
-# Hey, I'm Daksh Rawat 👋
-**Founder & Lead Developer at [@Kukzze](https://github.com/Kukzze)** | Building web platforms, AI fitness apps, and open-source gaming tools.
+# Hey, I'm Daksh Rawat (aka Kukzze) 👋
+**Founder & Developer of [Chic Builder](https://chic-builder.vercel.app/) & [Excel Masters](https://www.excelmasters.in/)** | Building web platforms, AI fitness apps, and open-source gaming tools.
 
 ---
 
