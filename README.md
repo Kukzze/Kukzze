@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Daksh Rawat (aka Kukzze) ⚡
+# Hey, I'm Daksh Rawat (aka Kukzze) 
 
 <!-- Animated Typing Header (AI removed) -->
 <a href="https://github.com/Kukzze">
