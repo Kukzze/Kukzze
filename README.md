@@ -10,10 +10,13 @@
 
 <br/>
 
-<!-- Profile Views & Status Badges -->
+<!-- Profile Views, NVIDIA Inception & Status Badges -->
 <p align="center">
   <a href="https://github.com/Kukzze">
     <img src="https://komarev.com/ghpvc/?username=Kukzze&label=Profile%20Views&color=0284c7&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
+  </a>
+  <a href="https://www.nvidia.com/en-us/startups/" target="_blank">
+    <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
   </a>
   <img src="https://img.shields.io/badge/Status-Building%20%26%20Scaling-10b981?style=for-the-badge&logo=rocket&logoColor=white" alt="Status" />
   <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20PWAs-8b5cf6?style=for-the-badge&logo=react&logoColor=white" alt="Focus" />
@@ -50,7 +53,7 @@
 
 ### 👨‍💻 About Me
 
-- 🚀 **Founder & Lead Developer** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://www.excelmasters.in/)**
+- 🚀 **Founder & Lead Developer** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
 - ⚡ **Specialties**: Full-Stack Architecture, Progressive Web Apps (PWAs), Next.js, TypeScript & Automation Bots
 - 📱 **Current Venture**: Scaling **Chic Builder** and launching the native mobile app on the **Google Play Store**
 - ⚔️ **Open Source**: Upstream contributor to Old School RuneScape tooling ([RuneLite](https://github.com/runelite/runelite) & [Quest Helper](https://github.com/Zoinkwiz/quest-helper))
@@ -75,7 +78,7 @@
       </div>
       <br/>
       <p align="left">
-        <b>100% Free AI Workout & Ranked Fitness PWA</b>
+        <b>100% Free Custom Workout & Ranked Fitness PWA</b>
         <ul>
           <li>Custom workout routines, intelligent volume scaling & daily tracker</li>
           <li>In-depth progress analytics, PR tracking & interactive visual charts</li>
@@ -92,6 +95,9 @@
         <h3>📊 <a href="https://www.excelmasters.in/">Excel Masters</a></h3>
         <a href="https://www.excelmasters.in/">
           <img src="https://img.shields.io/badge/Platform-Live%20Portal-f59e0b?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Website" />
+        </a>
+        <a href="https://github.com/ExcelMasters-in">
+          <img src="https://img.shields.io/badge/GitHub%20Org-ExcelMasters--in-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Org" />
         </a>
         <a href="https://github.com/Kukzze/chic-bot-service">
           <img src="https://img.shields.io/badge/Bot%20Engine-Active-5865f2?style=flat-square&logo=discord&logoColor=white" alt="Discord Bot" />
