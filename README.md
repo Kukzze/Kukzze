@@ -56,3 +56,9 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,nextjs,react,js,nodejs,java,html,css,tailwind,vercel,git,github,discord,vscode&perline=7" alt="Tech Stack" />
 </p>
+
+---
+
+<p align="center">
+  <sub>Designed &amp; crafted by Daksh Rawat &bull; Open source enthusiast</sub>
+</p>
