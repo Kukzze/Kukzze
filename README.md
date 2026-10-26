@@ -60,5 +60,5 @@
 ---
 
 <p align="center">
-  <sub>Designed &amp; crafted by Daksh Rawat &bull; Open source enthusiast</sub>
+  <sub>Designed &amp; crafted by Daksh Rawat &bull; Full-Stack Developer &amp; Open Source Enthusiast</sub>
 </p>
