@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hey, I'm Daksh Rawat (aka Kukzze) 
+# Hey, I'm Daksh Rawat (aka Kukzze) ⚡
 
-<!-- Animated Typing Header -->
+<!-- Animated Typing Header (AI removed) -->
 <a href="https://github.com/Kukzze">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Founder+%26+Developer+of+Chic+Builder+%F0%9F%8F%8B%EF%B8%8F;Founder+%26+Developer+of+Excel+Masters+%F0%9F%93%8A;OSRS+Open+Source+Contributor+%E2%9A%94%EF%B8%8F;Building+Web+Apps%2C+Bots+%26+Game+Tools+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
@@ -27,8 +27,8 @@
     <td width="50%" valign="top">
       <h3 align="center">🏋️ <a href="https://chic-builder.vercel.app/">Chic Builder</a></h3>
       <p align="center">
-        <b>100% Free AI Workout & Ranked Fitness PWA</b><br/>
-        Features an AI Workout Generator, Daily Task Tracker, Progression Charts, and Ranked Community Leaderboards.<br/><br/>
+        <b>100% Free Workout & Ranked Fitness PWA</b><br/>
+        Features custom workout generation, daily task trackers, progression charts, and ranked community leaderboards.<br/><br/>
         📱 <i>Releasing soon on the Google Play Store!</i>
       </p>
     </td>
@@ -55,10 +55,4 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,nextjs,react,js,nodejs,java,html,css,tailwind,vercel,git,github,discord,vscode&perline=7" alt="Tech Stack" />
-</p>
-
----
-
-<p align="center">
-  <sub>Designed &amp; crafted by Daksh Rawat &bull; Full-Stack Developer &amp; Open Source Enthusiast</sub>
 </p>
