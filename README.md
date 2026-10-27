@@ -1,16 +1,16 @@
 <div align="center">
 
 <!-- Modern Waving Banner Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%230b0f19&custom_color_2=%232563eb&height=190&section=header&text=Daksh%20Rawat&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Founder%20%E2%80%A2%20Full-Stack%20Engineer%20%E2%80%A2%20OSRS%20Contributor&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%230b0f19&custom_color_2=%232563eb&height=190&section=header&text=Daksh%20Rawat&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Founder%20%E2%80%A2%20Full-Stack%20Engineer%20%E2%80%A2%20Open-Source%20Contributor&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
 
 <!-- Dynamic Animated Typing Text -->
 <a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Founder+%26+Lead+Engineer+%40+Chic+Builder+%F0%9F%8F%8B%EF%B8%8F;Founder+%40+Excel+Masters+%F0%9F%93%8A;Building+High-Performance+Web+Apps+%26+PWAs+%E2%9A%A1;OSRS+Open-Source+Contributor+%E2%9A%94%EF%B8%8F;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Java+%E2%80%A2+Node.js+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=660&lines=Founder+%26+Lead+Engineer+%40+Chic+Builder+%F0%9F%8F%8B%EF%B8%8F;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%F0%9F%9A%80;Contributor+to+PaperMC%2C+MDN%2C+JDA+%26+RuneLite+%E2%9A%A1;Full-Stack+Architect+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Java+%E2%80%A2+MongoDB+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Profile Views, NVIDIA Inception & Status Badges -->
+<!-- Profile Views, Accelerators, Open Source & Status Badges -->
 <p align="center">
   <a href="https://github.com/Kukzze">
     <img src="https://komarev.com/ghpvc/?username=Kukzze&label=Profile%20Views&color=0284c7&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
@@ -18,8 +18,13 @@
   <a href="https://www.nvidia.com/en-us/startups/" target="_blank">
     <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
   </a>
+  <a href="https://www.mongodb.com/startups" target="_blank">
+    <img src="https://img.shields.io/badge/MongoDB-Startups%20Cohort-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB for Startups" />
+  </a>
+  <a href="https://github.com/Kukzze">
+    <img src="https://img.shields.io/badge/Open%20Source-Contributor-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" />
+  </a>
   <img src="https://img.shields.io/badge/Status-Building%20%26%20Scaling-10b981?style=for-the-badge&logo=rocket&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20PWAs-8b5cf6?style=for-the-badge&logo=react&logoColor=white" alt="Focus" />
 </p>
 
 <!-- Socials & Connect Bar -->
@@ -54,11 +59,12 @@
 ### 👨‍💻 About Me
 
 - 🚀 **Founder & Lead Developer** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
-- ⚡ **Specialties**: Full-Stack Architecture, Progressive Web Apps (PWAs), Next.js, TypeScript & Automation Bots
-- 📱 **Current Venture**: Scaling **Chic Builder** and launching the native mobile app on the **Google Play Store**
-- ⚔️ **Open Source**: Upstream contributor to Old School RuneScape tooling ([RuneLite](https://github.com/runelite/runelite) & [Quest Helper](https://github.com/Zoinkwiz/quest-helper))
+- 🌟 **Startup Ecosystem**: Member of **[MongoDB for Startups](https://www.mongodb.com/startups)** & **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**
+- ⚡ **Core Stack**: Full-Stack Architecture, Next.js, TypeScript, Java (JDK 21), Node.js, MongoDB & High-Concurrency APIs
+- 🌐 **Open-Source Contributor**: Upstream contributor to **[PaperMC](https://github.com/PaperMC/Paper)**, **[Mozilla MDN Web Docs](https://github.com/mdn/content)**, **[Discord JDA](https://github.com/discord-jda/JDA)**, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, and **[RuneLite](https://github.com/runelite/runelite)**
+- 📱 **Current Venture**: Scaling **Chic Builder** and launching the native mobile build on the **Google Play Store**
 - 📍 **Location**: India 🇮🇳 (UTC +05:30)
-- 💬 **Let's Talk**: Next.js, PWAs, Discord bot ecosystems, OSRS plugin development, or collaboration opportunities
+- 💬 **Let's Talk**: High-performance web apps, distributed systems, gaming client internals, or collaboration opportunities
 
 ---
 
@@ -78,16 +84,16 @@
       </div>
       <br/>
       <p align="left">
-        <b>100% Free Custom Workout & Ranked Fitness PWA</b>
+        <b>100% Free Custom Workout & Ranked Fitness Platform</b>
         <ul>
-          <li>Custom workout routines, intelligent volume scaling & daily tracker</li>
+          <li>Intelligent volume scaling, custom workout routines & daily tracker</li>
           <li>In-depth progress analytics, PR tracking & interactive visual charts</li>
           <li>Competitive ranked community leaderboards to stay motivated</li>
           <li>📱 <i>Releasing soon as a native build on the <b>Google Play Store</b>!</i></li>
         </ul>
       </p>
       <div align="center">
-        <code>Next.js</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>PWA</code>
+        <code>Next.js</code> • <code>TypeScript</code> • <code>MongoDB</code> • <code>Tailwind CSS</code> • <code>PWA</code>
       </div>
     </td>
     <td width="50%" valign="top">
@@ -122,23 +128,55 @@
 
 ---
 
-### ⚔️ Open Source & Gaming
+### 🌐 Open Source & Ecosystem Contributions
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite</a> (Official Client)</h4>
+      <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a></h4>
       <p>
-        Active open-source contributor to the flagship Old School RuneScape client used by over 80% of the playerbase. Contributing core bug fixes, game mechanics patches, and Skill Calculator upgrades.
+        The premier high-performance Minecraft Java server. Patched custom Checkstyle AST rules enforcing parameter alignment in the presence of inline link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>).
       </p>
-      <code>Java</code> • <code>OSRS Engine</code> • <code>RuneLite API</code>
+      <code>Java</code> • <code>AST / Checkstyle</code> • <code>Server Core</code>
     </td>
     <td width="50%" valign="top">
-      <h4>📜 <a href="https://github.com/Zoinkwiz/quest-helper">Quest Helper Plugin</a></h4>
+      <h4>📖 <a href="https://github.com/mdn/content">Mozilla MDN Web Docs</a></h4>
       <p>
-        Enhancing quest progression logic, step accuracy, dynamic item requirement tracking, and route optimizations for the most popular community quest navigation tool in OSRS history.
+        The authoritative global web documentation. Documented WHATWG HTML origin-keyed agent clusters default and <code>?0</code> opt-out for process isolation (<a href="https://github.com/mdn/content/pull/46305">PR #46305</a>).
       </p>
-      <code>Java</code> • <code>Game Logic</code> • <code>Open Source</code>
+      <code>Web Specs</code> • <code>WHATWG HTML</code> • <code>Web Security</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com/discord-jda/JDA">Discord JDA</a></h4>
+      <p>
+        The flagship Java Discord bot framework. Implemented <code>getChannel()</code> getter on <code>MessageCreateAction</code> for multi-channel permission verification (<a href="https://github.com/discord-jda/JDA/pull/3162">PR #3162</a>).
+      </p>
+      <code>Java</code> • <code>Discord API</code> • <code>Gateway / REST</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔷 <a href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a></h4>
+      <p>
+        The central repository for TypeScript type definitions. Modernized 31 deprecated <code>JQueryEventObject</code> definitions to <code>JQuery.Event</code> in <code>@types/jqueryui</code> (<a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75855">PR #75855</a>).
+      </p>
+      <code>TypeScript</code> • <code>Type Systems</code> • <code>Ecosystem</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite & Quest Helper</a></h4>
+      <p>
+        Contributing game mechanics patches, Skill Calculator logic (<a href="https://github.com/runelite/runelite/pull/20613">PR #20613</a>), and optimal quest route improvements (<a href="https://github.com/Zoinkwiz/quest-helper/pull/2875">PR #2875</a>).
+      </p>
+      <code>Java</code> • <code>Game Engine</code> • <code>Client APIs</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧭 <a href="https://github.com/Kukzze/astrarium">Astrarium Plugin Suite</a></h4>
+      <p>
+        Architected a full-featured OSRS player progression astrolabe featuring combat math, quest routing, diary checklists, and gear readiness audits (<a href="https://github.com/runelite/plugin-hub/pull/19521">PR #19521</a>).
+      </p>
+      <code>Java</code> • <code>RuneLite API</code> • <code>13 Test Suites</code>
     </td>
   </tr>
 </table>
@@ -154,8 +192,8 @@
   
   <br/><br/>
   
-  <b>Backend, DevOps & Ecosystem</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,vercel,git,github,vscode,discord,postman&perline=8" alt="Backend & Tools" />
+  <b>Database, Backend & DevOps</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,mongodb,vercel,git,github,vscode,discord,postman&perline=8" alt="Backend & Tools" />
 
 </div>
 
