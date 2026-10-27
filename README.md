@@ -5,7 +5,7 @@
 
 <!-- Dynamic Animated Typing Text -->
 <a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%9A%80;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%E2%9C%A8;Participant%3A+W3C+Open+Source+Program+%E2%80%A2+Linux+Foundation+%F0%9F%8C%90;Upstream+OSS%3A+PaperMC+(Approved)+%E2%80%A2+DefinitelyTyped+%E2%80%A2+Biome+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;YC+Startup+School+Founder+%40+Excel+Masters+%F0%9F%93%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%9A%80;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%E2%9C%A8;Participant%3A+W3C+Open+Source+Program+%E2%80%A2+Linux+Foundation+%F0%9F%8C%90;Upstream+OSS%3A+PaperMC+(Merged+%F0%9F%8E%89)+%E2%80%A2+DefinitelyTyped+%E2%80%A2+Biome+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;YC+Startup+School+Founder+%40+Excel+Masters+%F0%9F%93%8A" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -83,7 +83,7 @@
 > ### 💡 Current Focus & Systems Engineering
 > - 🚀 **Founder & Systems Architect** @ **[Chic Builder](https://chic-builder.vercel.app/)** *(AI Workouts & Ranked Fitness PWA)*
 > - 🛡️ **Creator** of **[mongo-next-sentinel](https://github.com/Kukzze/mongo-next-sentinel)** *(Production Serverless Connection Pool Auditor)*
-> - 🌐 **Upstream Contributor**: **[PaperMC](https://github.com/PaperMC/Paper)** *(Approved)*, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, **[Biome](https://github.com/biomejs/biome)**, **[Discord.js](https://github.com/discordjs/discord.js)**
+> - 🌐 **Upstream Contributor**: **[PaperMC](https://github.com/PaperMC/Paper)** *(Merged 🎉)*, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, **[Biome](https://github.com/biomejs/biome)**, **[Discord.js](https://github.com/discordjs/discord.js)**
 > - 🏛️ **Global Standards & Foundations**: **[W3C Open Source Program](https://www.w3.org/community/osprogram/)** & Verified **[Linux Foundation](https://openprofile.dev/)** Member *(LFX ID: `Kukzze`)*
 > - 💬 **Open to Collaboration**: Distributed Systems, Serverless Tooling & Web Platform Specifications
 
@@ -278,9 +278,9 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a> &nbsp; <img src="https://img.shields.io/badge/Status-APPROVED-10b981?style=flat-square" alt="Approved" /></h4>
+      <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a> &nbsp; <img src="https://img.shields.io/badge/Status-MERGED-8957e5?style=flat-square" alt="Merged" /></h4>
       <p>
-        The premier high-performance Minecraft Java server. Fixed Checkstyle AST rules enforcing parameter description alignment in the presence of inline Javadoc link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>). <i>Signed off and approved by PaperMC Core Team!</i>
+        The premier high-performance Minecraft Java server. Fixed Checkstyle AST rules enforcing parameter description alignment in the presence of inline Javadoc link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>). <i>Merged upstream by PaperMC Core Team member @Warriorrrr!</i>
       </p>
       <code>Java</code> • <code>AST Checkstyle</code> • <code>Server Core</code>
     </td>
