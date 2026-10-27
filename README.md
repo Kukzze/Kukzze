@@ -1,54 +1,36 @@
 <div align="center">
 
-<!-- Modern Waving Banner Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%23080c16&custom_color_2=%232563eb&height=200&section=header&text=Daksh%20Rawat&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Open-Source%20Contributor&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
-
-<!-- Dynamic Animated Typing Text -->
-<a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%8F%8B%EF%B8%8F;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%F0%9F%9A%80;Contributor%3A+Biome+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%80%A2+MDN+%E2%80%A2+Lucide+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;Full-Stack+Architect+%E2%80%A2+TypeScript+%E2%80%A2+Rust+%E2%80%A2+Java+%E2%80%A2+Next.js+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
-</a>
+<!-- Bespoke High-Resolution Vector Banner -->
+<img src="./assets/banner.svg" width="100%" alt="Daksh Rawat (Kukzze) - Founder & Systems Architect" />
 
 <br/>
 
-<!-- Profile Views, Accelerators, Open Source & Status Badges -->
-<p align="center">
-  <a href="https://github.com/Kukzze">
-    <img src="https://komarev.com/ghpvc/?username=Kukzze&label=Profile%20Views&color=0284c7&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
-  </a>
-  <a href="https://www.mongodb.com/startups" target="_blank">
-    <img src="https://img.shields.io/badge/MongoDB-Startups%20Cohort-00ED64?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB for Startups" />
-  </a>
-  <a href="https://www.nvidia.com/en-us/startups/" target="_blank">
-    <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
-  </a>
-  <a href="https://github.com/Kukzze">
-    <img src="https://img.shields.io/badge/Open%20Source-Contributor-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-Building%20%26%20Scaling-10b981?style=for-the-badge&logo=rocket&logoColor=white" alt="Status" />
-</p>
+<!-- Dynamic Terminal Typing Line -->
+<a href="https://github.com/Kukzze">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%E2%9A%A1;MongoDB+for+Startups+%26+NVIDIA+Inception+Accelerators+%F0%9F%9A%80;Upstream+Engines%3A+Biome+(Rust)+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%9C%A8;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;22.8k%2B+Athlete+Community+Builder+%F0%9F%8F%8B%EF%B8%8F" alt="Typing SVG" />
+</a>
 
-<!-- Socials & Connect Bar -->
+<br/><br/>
+
+<!-- Social & Venture Links -->
 <p align="center">
   <a href="https://linkedin.com/in/kukzze" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://chic-builder.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Chic%20Builder-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Chic Builder" />
+  </a>
+  <a href="https://www.npmjs.com/package/mongo-next-sentinel" target="_blank">
+    <img src="https://img.shields.io/badge/npm-mongo--next--sentinel-cb3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
   </a>
   <a href="https://discord.gg/7vaHhewmtJ" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   <a href="https://instagram.com/kukzze" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://youtube.com/@kukzze" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-  <a href="https://www.excelmasters.in/" target="_blank">
-    <img src="https://img.shields.io/badge/Excel%20Masters-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Excel Masters" />
-  </a>
-  <a href="https://chic-builder.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Chic%20Builder-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Chic Builder" />
+    <img src="https://img.shields.io/badge/Instagram-22.8K-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="mailto:kukzze@excelmasters.in">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Contact-kukzze%40excelmasters.in-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -56,22 +38,19 @@
 
 ---
 
-### 👨‍💻 Engineering Profile
+### ⚡ Telemetry & Diagnostics
 
-- 🚀 **Founder & Systems Architect** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
-- 🌟 **Startup Accelerators**: Accepted into the **[MongoDB for Startups](https://www.mongodb.com/startups)** cohort & member of the **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**
-- ⚡ **Core Stack**: TypeScript, Rust, Java (JDK 21), Next.js 15 App Router, MongoDB Atlas, Node.js & Distributed Systems
-- 🌐 **Upstream Open-Source Contributor**:
-  - **[Biome](https://github.com/biomejs/biome)** *(Rust Compiler & Linter)*
-  - **[Discord.js](https://github.com/discordjs/discord.js)** *(Voice Engine & DAVE MLS E2EE)*
-  - **[Lucide Icons](https://github.com/lucide-icons/lucide)** *(Design Systems & SVG)*
-  - **[PaperMC](https://github.com/PaperMC/Paper)** *(High-Performance Minecraft Java Server)*
-  - **[Mozilla MDN Web Docs](https://github.com/mdn/content)** *(Global Web Platform Standards)*
-  - **[Discord JDA](https://github.com/discord-jda/JDA)** *(Flagship Java Discord API)*
-  - **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)** *(TypeScript Type Systems)*
-  - **[RuneLite](https://github.com/runelite/runelite)** & **[Quest Helper](https://github.com/Zoinkwiz/quest-helper)** *(Game Client Engine & APIs)*
-- 📱 **Active Venture**: Scaling **Chic Builder** and launching the native mobile client on the **Google Play Store**
-- 📍 **Location**: India 🇮🇳 (UTC +05:30)
+```bash
+kukzze@production:~$ ./status --verbose
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FOUNDER      : Chic Builder (chic-builder.vercel.app) & Excel Masters       │
+│ ACCELERATORS : MongoDB for Startups Cohort ✦ NVIDIA Inception Member        │
+│ CORE STACK   : TypeScript • Rust • Java (JDK 21) • Next.js 15 • MongoDB     │
+│ UPSTREAM OSS : Biome • Discord.js • PaperMC • DefinitelyTyped • Lucide      │
+│ AUDIENCE     : 22.8k+ Creator Community (@kukzze) 🏋️‍♂️                       │
+│ STATUS       : Live PWA ✦ Google Play Store Native Release Imminent 📱     │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -89,8 +68,8 @@
       <p align="left">
         <b>Official Member • MongoDB for Startups Cohort</b>
         <ul>
-          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document stores</li>
-          <li>Leveraging MongoDB Atlas Serverless, Vector Search & automated connection pooling</li>
+          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document architectures</li>
+          <li>Leveraging MongoDB Atlas Serverless, Vector Search &amp; automated connection pooling</li>
           <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — connection pool auditor for Next.js App Router</li>
         </ul>
       </p>
@@ -106,8 +85,8 @@
         <b>Official Member • NVIDIA Inception Accelerator</b>
         <ul>
           <li>Selected for NVIDIA's premier global startup program supporting AI and high-performance computing</li>
-          <li>Access to GPU hardware acceleration, technical advisory & deep learning developer tools</li>
-          <li>Powering intelligent analytics and volume progression models in athletic tech</li>
+          <li>Access to GPU hardware acceleration, technical advisory &amp; deep learning developer tools</li>
+          <li>Powering intelligent volume progression models &amp; predictive workout analytics</li>
         </ul>
       </p>
     </td>
@@ -132,10 +111,10 @@
       </div>
       <br/>
       <p align="left">
-        <b>100% Free Custom Workout & Ranked Fitness Platform</b>
+        <b>100% Free Custom Workout &amp; Ranked Fitness Platform</b>
         <ul>
-          <li>Intelligent volume scaling, custom workout routines & daily habit tracking</li>
-          <li>Progress analytics, personal record auditing & interactive visual charts</li>
+          <li>Intelligent volume scaling, custom workout routines &amp; daily habit tracking</li>
+          <li>Progress analytics, personal record auditing &amp; interactive visual charts</li>
           <li>Competitive ranked community leaderboards to stay motivated</li>
           <li>📱 <i>Releasing soon as a native build on the <b>Google Play Store</b>!</i></li>
         </ul>
@@ -147,7 +126,7 @@
     <td width="50%" valign="top">
       <div align="center">
         <h3>🛡️ <a href="https://github.com/Kukzze/mongo-next-sentinel">mongo-next-sentinel</a></h3>
-        <a href="https://github.com/Kukzze/mongo-next-sentinel">
+        <a href="https://www.npmjs.com/package/mongo-next-sentinel">
           <img src="https://img.shields.io/badge/npm-v1.0.0-cb3837?style=flat-square&logo=npm&logoColor=white" alt="npm package" />
         </a>
         <a href="https://github.com/Kukzze/mongo-next-sentinel">
@@ -156,12 +135,12 @@
       </div>
       <br/>
       <p align="left">
-        <b>Next.js Serverless MongoDB Pool Auditor & Leak Detector</b>
+        <b>Next.js Serverless MongoDB Pool Auditor &amp; Leak Detector</b>
         <ul>
-          <li>Microsecond CMAP event tracking for Server Actions & Route Handlers</li>
-          <li>Detects unclosed cursors, socket hoarding & hot-reload duplicate pools</li>
+          <li>Microsecond CMAP event tracking for Server Actions &amp; Route Handlers</li>
+          <li>Detects unclosed cursors, socket hoarding &amp; hot-reload duplicate pools</li>
           <li>Prevents Atlas connection exhaustion storms in stateless worker environments</li>
-          <li>Dual ESM & CommonJS build with zero runtime dependency overhead</li>
+          <li>Dual ESM &amp; CommonJS build with zero runtime dependency overhead</li>
         </ul>
       </p>
       <div align="center">
@@ -182,12 +161,12 @@
       </div>
       <br/>
       <p align="left">
-        <b>Official Web Platform & Interactive Learning Hub</b>
+        <b>Official Web Platform &amp; Interactive Learning Hub</b>
         <ul>
-          <li>High-speed learning hub built with Next.js App Router & TypeScript</li>
-          <li>Comprehensive educational resources, student tools & dataset templates</li>
+          <li>High-speed learning portal built with Next.js App Router &amp; TypeScript</li>
+          <li>Educational spreadsheets, dataset templates &amp; student workflow tools</li>
           <li>Automated community backend via <a href="https://github.com/Kukzze/chic-bot-service"><b>Chic Bot Service</b></a></li>
-          <li>🤖 <i>Automated role gating, member analytics & realtime event dispatch</i></li>
+          <li>🤖 <i>Automated role gating, member analytics &amp; realtime event dispatch</i></li>
         </ul>
       </p>
       <div align="center">
@@ -206,10 +185,10 @@
       </div>
       <br/>
       <p align="left">
-        <b>Player Progression Astrolabe & Readiness Auditor for RuneLite</b>
+        <b>Player Progression Astrolabe &amp; Readiness Auditor for RuneLite</b>
         <ul>
-          <li>Deep integration with RuneLite client APIs, skill calculators & cache items</li>
-          <li>Automated achievement diary auditing, quest step mapping & boss gear readiness</li>
+          <li>Deep integration with RuneLite client APIs, skill calculators &amp; cache items</li>
+          <li>Automated achievement diary auditing, quest step mapping &amp; boss gear readiness</li>
           <li>Zero reflection overhead, clean standard architecture with 13 unit test suites</li>
         </ul>
       </p>
@@ -222,19 +201,19 @@
 
 ---
 
-### 🌐 Open Source & Upstream Contributions
+### 🌐 Upstream Open-Source Contributions
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler & Linter)</a></h4>
+      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler &amp; Linter)</a></h4>
       <p>
         High-performance Rust toolchain for web projects. Implemented engine support for npm's official <code>SEE LICENSE IN &lt;file&gt;</code> specification in <code>noUntrustedLicenses</code> with UTF-8 boundary safety and compound rule preservation (<a href="https://github.com/biomejs/biome/pull/12704">PR #12704</a>).
       </p>
-      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer & Parser</code>
+      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer &amp; Parser</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice / E2EE)</a></h4>
+      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice Engine &amp; E2EE)</a></h4>
       <p>
         The standard JavaScript library for Discord. Patched DAVE MLS voice encryption session recovery when transition ID is 0 (<a href="https://github.com/discordjs/discord.js/pull/11667">PR #11667</a>).
       </p>
@@ -243,27 +222,27 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🎨 <a href="https://github.com/lucide-icons/lucide">Lucide Icons</a></h4>
-      <p>
-        Modern, consistent icon design system. Standardized statistical distribution column chart icon variants (unimodal, bimodal, uniform) on the 5-column base grid (<a href="https://github.com/lucide-icons/lucide/pull/5086">PR #5086</a>).
-      </p>
-      <code>SVG</code> • <code>Design Systems</code> • <code>Vector Geometry</code>
-    </td>
-    <td width="50%" valign="top">
       <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a></h4>
       <p>
         The premier high-performance Minecraft Java server. Fixed Checkstyle AST rules enforcing parameter description alignment in the presence of inline Javadoc link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>).
       </p>
       <code>Java</code> • <code>AST Checkstyle</code> • <code>Server Core</code>
     </td>
+    <td width="50%" valign="top">
+      <h4>🎨 <a href="https://github.com/lucide-icons/lucide">Lucide Icons</a></h4>
+      <p>
+        Modern, consistent icon design system. Standardized statistical distribution column chart icon variants (unimodal, bimodal, uniform) on the 5-column base grid (<a href="https://github.com/lucide-icons/lucide/pull/5086">PR #5086</a>).
+      </p>
+      <code>SVG</code> • <code>Design Systems</code> • <code>Vector Geometry</code>
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>📖 <a href="https://github.com/mdn/content">Mozilla MDN Web Docs</a></h4>
       <p>
-        The authoritative global web documentation. Documented WHATWG HTML origin-keyed agent clusters default and <code>?0</code> opt-out for browser process isolation (<a href="https://github.com/mdn/content/pull/46305">PR #46305</a>).
+        The authoritative global web platform documentation. Documented WHATWG HTML origin-keyed agent clusters default and <code>?0</code> opt-out for browser process isolation (<a href="https://github.com/mdn/content/pull/46305">PR #46305</a>).
       </p>
-      <code>Web Specs</code> • <code>WHATWG HTML</code> • <code>Web Security</code>
+      <code>Web Specs</code> • <code>WHATWG HTML</code> • <code>Browser Security</code>
     </td>
     <td width="50%" valign="top">
       <h4>🤖 <a href="https://github.com/discord-jda/JDA">Discord JDA</a></h4>
@@ -282,9 +261,9 @@
       <code>TypeScript</code> • <code>Type Systems</code> • <code>Ecosystem</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite & Quest Helper</a></h4>
+      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite &amp; Quest Helper</a></h4>
       <p>
-        Contributed skill calculator Blood Moon skilling methods (<a href="https://github.com/runelite/runelite/pull/20613">PR #20613</a>) and optimal grapple route improvements (<a href="https://github.com/Zoinkwiz/quest-helper/pull/2875">PR #2875</a>).
+        Contributed Blood Moon skilling calculation methods (<a href="https://github.com/runelite/runelite/pull/20613">PR #20613</a>) and optimal grapple route improvements (<a href="https://github.com/Zoinkwiz/quest-helper/pull/2875">PR #2875</a>).
       </p>
       <code>Java</code> • <code>Game Engine</code> • <code>Client APIs</code>
     </td>
@@ -293,7 +272,7 @@
 
 ---
 
-### 🛠️ Languages, Frameworks & Infrastructure
+### 🛠️ Core Stack & Infrastructure
 
 <div align="center">
 
@@ -302,7 +281,7 @@
   
   <br/><br/>
   
-  <b>Frameworks, Runtimes & Libraries</b><br/><br/>
+  <b>Frameworks, Runtimes & Platforms</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,bun&perline=5" alt="Frameworks & Runtimes" />
 
   <br/><br/>
@@ -320,15 +299,15 @@
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9" height="185" alt="Daksh's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" height="185" alt="Daksh's GitHub Stats" />
       </td>
       <td align="center" valign="middle">
-        <img src="https://streak-stats.demolab.com/?user=Kukzze&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" height="185" alt="Daksh's GitHub Streak" />
+        <img src="https://streak-stats.demolab.com/?user=Kukzze&theme=tokyonight&hide_border=true&background=050811&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" height="185" alt="Daksh's GitHub Streak" />
       </td>
     </tr>
   </table>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukzze&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukzze&layout=compact&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38bdf8&text_color=94a3b8" height="165" alt="Top Languages" />
 </div>
 
 ---
@@ -346,10 +325,7 @@
 <br/>
 
 <div align="center">
-  <!-- Waving Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%232563eb&custom_color_2=%23080c16&height=100&section=footer" width="100%" alt="Footer Banner" />
-  
   <p align="center">
-    <sub>Crafted with ⚡ by <b><a href="https://github.com/Kukzze">Daksh Rawat (Kukzze)</a></b> • Star my repos if you enjoy my work!</sub>
+    <sub>Crafted with ⚡ by <b><a href="https://github.com/Kukzze">Daksh Rawat (Kukzze)</a></b> • Star my repositories if you find them helpful!</sub>
   </p>
 </div>
