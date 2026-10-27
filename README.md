@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Animated High-Resolution Vector Banner (Breathing Nebula, Radar Ping & Laser Horizon) -->
-<img src="./assets/banner.svg" width="100%" alt="Daksh Rawat - Founder & Systems Architect" />
+<!-- Clean Linear-Style Header Banner -->
+<img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/banner.png" width="100%" alt="Daksh Rawat - Founder & Systems Architect" />
 
-<br/>
+<br/><br/>
 
 <!-- Real-time Animated Typing SVG -->
 <a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%E2%9A%A1;MongoDB+for+Startups+%26+NVIDIA+Inception+Accelerators+%F0%9F%9A%80;Upstream+Engines%3A+Biome+(Rust)+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%9C%A8;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;Competitive+Athlete+%26+Builder+%E2%80%A2+22.8k+Community+%F0%9F%8F%8B%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%E2%9A%A1;MongoDB+for+Startups+%26+NVIDIA+Inception+Accelerators+%F0%9F%9A%80;Upstream+Engines%3A+Biome+(Rust)+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%9C%A8;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;Competitive+Athlete+%26+Builder+%E2%80%A2+22.8k+Community+%F0%9F%8F%8B%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <br/><br/>
