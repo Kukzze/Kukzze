@@ -79,15 +79,12 @@
 
 ### ⚡ Engineering Spotlight & Core Focus
 
-```text
-┌─ 💡 Current Focus & Systems Engineering ──────────────────────────────────────────────┐
-│ • 🚀 Founder & Systems Architect @ Chic Builder (AI Workouts & Ranked Fitness PWA)   │
-│ • 🛡️ Creator of mongo-next-sentinel (Production Serverless Connection Pool Auditor)   │
-│ • 🌐 Upstream Contributor: PaperMC (Approved), DefinitelyTyped, Biome, Discord.js    │
-│ • 🏛️ Participant in W3C Open Source Program & Verified Linux Foundation Member (LFX) │
-│ • 💬 Open to collaboration on Distributed Systems, Cloud-Native Tooling & Web Specs  │
-└───────────────────────────────────────────────────────────────────────────────────────┘
-```
+> ### 💡 Current Focus & Systems Engineering
+> - 🚀 **Founder & Systems Architect** @ **[Chic Builder](https://chic-builder.vercel.app/)** *(AI Workouts & Ranked Fitness PWA)*
+> - 🛡️ **Creator** of **[mongo-next-sentinel](https://github.com/Kukzze/mongo-next-sentinel)** *(Production Serverless Connection Pool Auditor)*
+> - 🌐 **Upstream Contributor**: **[PaperMC](https://github.com/PaperMC/Paper)** *(Approved)*, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, **[Biome](https://github.com/biomejs/biome)**, **[Discord.js](https://github.com/discordjs/discord.js)**
+> - 🏛️ **Global Standards & Foundations**: **[W3C Open Source Program](https://www.w3.org/community/osprogram/)** & Verified **[Linux Foundation](https://openprofile.dev/)** Member *(LFX ID: `Kukzze`)*
+> - 💬 **Open to Collaboration**: Distributed Systems, Serverless Tooling & Web Platform Specifications
 
 ---
 
