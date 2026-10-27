@@ -1,20 +1,33 @@
 <div align="center">
 
 <!-- Modern Waving Banner Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%23080c16&custom_color_2=%232563eb&height=200&section=header&text=Daksh%20Rawat&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Open-Source%20Contributor&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%23080c16&custom_color_2=%232563eb&height=220&section=header&text=Daksh%20Rawat&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Open-Source%20Contributor&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
 
 <!-- Dynamic Animated Typing Text -->
 <a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%9A%80;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%E2%9C%A8;Participant%3A+W3C+Open+Source+Program+%E2%80%A2+Linux+Foundation+%F0%9F%8C%90;YC+Startup+School+Founder+%40+Excel+Masters+%F0%9F%93%8A;Upstream+OSS%3A+Biome+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%80%A2+MDN+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%9A%80;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%E2%9C%A8;Participant%3A+W3C+Open+Source+Program+%E2%80%A2+Linux+Foundation+%F0%9F%8C%90;Upstream+OSS%3A+PaperMC+(Approved)+%E2%80%A2+DefinitelyTyped+%E2%80%A2+Biome+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;YC+Startup+School+Founder+%40+Excel+Masters+%F0%9F%93%8A" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Profile Views, Accelerators, Open Source & Status Badges -->
+<!-- Interactive Quick-Action Toolbar -->
 <p align="center">
+  <a href="https://github.com/Kukzze/Kukzze/stargazers">
+    <img src="https://img.shields.io/github/stars/Kukzze/Kukzze?style=for-the-badge&logo=apachespark&color=f59e0b&label=Star%20Template" alt="Star Repo" />
+  </a>
+  <a href="https://github.com/Kukzze/Kukzze/network/members">
+    <img src="https://img.shields.io/github/forks/Kukzze/Kukzze?style=for-the-badge&logo=git&color=6366f1&label=Fork%20Template" alt="Fork Repo" />
+  </a>
   <a href="https://github.com/Kukzze">
     <img src="https://komarev.com/ghpvc/?username=Kukzze&label=Profile%20Views&color=0284c7&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   </a>
+  <a href="https://github.com/Kukzze/Kukzze/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT" />
+  </a>
+</p>
+
+<!-- Accelerator & Industry Credentials -->
+<p align="center">
   <a href="https://www.mongodb.com/startups" target="_blank">
     <img src="https://img.shields.io/badge/MongoDB-Startups%20Cohort-00ED64?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB for Startups" />
   </a>
@@ -33,10 +46,6 @@
   <a href="https://bytecodealliance.org/" target="_blank">
     <img src="https://img.shields.io/badge/Bytecode%20Alliance-Community-1E1B4B?style=for-the-badge&logo=webassembly&logoColor=white" alt="Bytecode Alliance" />
   </a>
-  <a href="https://github.com/Kukzze">
-    <img src="https://img.shields.io/badge/Open%20Source-Contributor-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-Building%20%26%20Scaling-10b981?style=for-the-badge&logo=rocket&logoColor=white" alt="Status" />
 </p>
 
 <!-- Socials & Connect Bar -->
@@ -68,30 +77,21 @@
 
 ---
 
-### 👨‍💻 Engineering Profile
+### ⚡ Engineering Spotlight & Core Focus
 
-- 🚀 **Founder & Systems Architect** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
-- 🌟 **Startup Accelerators & Fellowships**: Accepted into the **[MongoDB for Startups](https://www.mongodb.com/startups)** cohort, **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**, and **[Y Combinator Startup School](https://www.startupschool.org/)** (Excel Masters)
-- 🌐 **Global Standards & Open-Source Foundations**:
-  - **[W3C (World Wide Web Consortium)](https://www.w3.org/community/osprogram/)** *(Official Participant • W3C Open Source Program Community Group)*
-  - **[The Linux Foundation](https://openprofile.dev/)** *(Verified Member • LF ID: `Kukzze` on LFX)*
-  - **[Bytecode Alliance](https://bytecodealliance.org/)** *(WebAssembly & Rust Systems Community)*
-- ⚡ **Core Stack**: TypeScript, Rust, Java (JDK 21), Next.js 15 App Router, MongoDB Atlas, Node.js & Distributed Systems
-- 🌐 **Upstream Open-Source Contributor**:
-  - **[Biome](https://github.com/biomejs/biome)** *(Rust Compiler & Linter)*
-  - **[Discord.js](https://github.com/discordjs/discord.js)** *(Voice Engine & DAVE MLS E2EE)*
-  - **[Lucide Icons](https://github.com/lucide-icons/lucide)** *(Design Systems & SVG)*
-  - **[PaperMC](https://github.com/PaperMC/Paper)** *(High-Performance Minecraft Java Server)*
-  - **[Mozilla MDN Web Docs](https://github.com/mdn/content)** *(Global Web Platform Standards)*
-  - **[Discord JDA](https://github.com/discord-jda/JDA)** *(Flagship Java Discord API)*
-  - **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)** *(TypeScript Type Systems)*
-  - **[RuneLite](https://github.com/runelite/runelite)** & **[Quest Helper](https://github.com/Zoinkwiz/quest-helper)** *(Game Client Engine & APIs)*
-- 📱 **Active Venture**: Scaling **Chic Builder** and launching the native mobile client on the **Google Play Store**
-- 📍 **Location**: India 🇮🇳 (UTC +05:30)
+```text
+┌─ 💡 Current Focus & Systems Engineering ──────────────────────────────────────────────┐
+│ • 🚀 Founder & Systems Architect @ Chic Builder (AI Workouts & Ranked Fitness PWA)   │
+│ • 🛡️ Creator of mongo-next-sentinel (Production Serverless Connection Pool Auditor)   │
+│ • 🌐 Upstream Contributor: PaperMC (Approved), DefinitelyTyped, Biome, Discord.js    │
+│ • 🏛️ Participant in W3C Open Source Program & Verified Linux Foundation Member (LFX) │
+│ • 💬 Open to collaboration on Distributed Systems, Cloud-Native Tooling & Web Specs  │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-### 🏛️ Startup Ecosystems & Accelerators
+### 🏛️ Startup Ecosystems & Global Standards
 
 <table width="100%">
   <tr>
@@ -105,9 +105,9 @@
       <p align="left">
         <b>Official Member • MongoDB for Startups Cohort</b>
         <ul>
-          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document backends</li>
-          <li>Leveraging MongoDB Atlas Serverless, Vector Search & connection pooling</li>
-          <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — serverless connection pool auditor</li>
+          <li>Partnered with MongoDB for scaling <b>Chic Builder</b> distributed document backends</li>
+          <li>Leveraging MongoDB Atlas Serverless, Vector Search & automated connection pooling</li>
+          <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — connection leak detector for Next.js 15</li>
         </ul>
       </p>
     </td>
@@ -121,9 +121,9 @@
       <p align="left">
         <b>Official Member • NVIDIA Inception Program</b>
         <ul>
-          <li>Member of NVIDIA's global startup incubator for cutting-edge AI ventures</li>
-          <li>Access to GPU hardware acceleration, technical advisory & deep learning developer kits</li>
-          <li>Powering real-time layout synthesis and AI component generation in Chic Builder</li>
+          <li>Member of NVIDIA's global startup incubator for AI & deep learning ventures</li>
+          <li>Access to GPU hardware acceleration, technical advisory & AI developer toolkits</li>
+          <li>Powering intelligent volume scaling and workout generation in Chic Builder</li>
         </ul>
       </p>
     </td>
@@ -140,8 +140,8 @@
         <b>Official Participant • World Wide Web Consortium (W3C)</b>
         <ul>
           <li>Participant in the <b>W3C Open Source Program Community Group</b></li>
-          <li>Incubating open standards, web APIs, and developer toolchain alignment</li>
-          <li>Bridging upstream open-source codebases with global web platform specifications</li>
+          <li>Collaborating on open standards, web platform APIs, and toolchain alignment</li>
+          <li>Bridging production open-source architectures with global WHATWG web specs</li>
         </ul>
       </p>
     </td>
@@ -156,8 +156,8 @@
         <b>Verified Member • The Linux Foundation (LF ID: Kukzze)</b>
         <ul>
           <li>Active profile and verified credentials across the <b>Linux Foundation (LFX)</b></li>
-          <li>Contributing to cloud-native open source, toolchains, and developer ecosystems</li>
-          <li>Part of the <b>Bytecode Alliance</b> community advancing WebAssembly and Rust runtime tooling</li>
+          <li>Contributing to cloud-native open source, toolchains, and runtime ecosystems</li>
+          <li>Part of the <b>Bytecode Alliance</b> community advancing WebAssembly & Rust runtimes</li>
         </ul>
       </p>
     </td>
@@ -203,6 +203,9 @@
         <a href="https://github.com/Kukzze/mongo-next-sentinel">
           <img src="https://img.shields.io/badge/TypeScript-Strict%205.6+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         </a>
+        <a href="https://github.com/Kukzze/mongo-next-sentinel/actions">
+          <img src="https://img.shields.io/badge/CI-Passing-10b981?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passing" />
+        </a>
       </div>
       <br/>
       <p align="left">
@@ -211,7 +214,7 @@
           <li>Microsecond CMAP event tracking for Server Actions & Route Handlers</li>
           <li>Detects unclosed cursors, socket hoarding & hot-reload duplicate pools</li>
           <li>Prevents Atlas connection exhaustion storms in stateless worker environments</li>
-          <li>Dual ESM & CommonJS build with zero runtime dependency overhead</li>
+          <li>Dual ESM & CommonJS build with automated Bun CI test suite</li>
         </ul>
       </p>
       <div align="center">
@@ -277,34 +280,34 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler & Linter)</a></h4>
+      <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a> &nbsp; <img src="https://img.shields.io/badge/Status-APPROVED-10b981?style=flat-square" alt="Approved" /></h4>
       <p>
-        High-performance Rust toolchain for web projects. Implemented engine support for npm's official <code>SEE LICENSE IN &lt;file&gt;</code> specification in <code>noUntrustedLicenses</code> with UTF-8 boundary safety and compound rule preservation (<a href="https://github.com/biomejs/biome/pull/12704">PR #12704</a>).
+        The premier high-performance Minecraft Java server. Fixed Checkstyle AST rules enforcing parameter description alignment in the presence of inline Javadoc link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>). <i>Signed off and approved by PaperMC Core Team!</i>
       </p>
-      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer & Parser</code>
+      <code>Java</code> • <code>AST Checkstyle</code> • <code>Server Core</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice / E2EE)</a></h4>
+      <h4>🔷 <a href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a> &nbsp; <img src="https://img.shields.io/badge/Status-CI%20Passing-10b981?style=flat-square" alt="CI Passing" /></h4>
       <p>
-        The standard JavaScript library for Discord. Patched DAVE MLS voice encryption session recovery when transition ID is 0 (<a href="https://github.com/discordjs/discord.js/pull/11667">PR #11667</a>).
+        The central repository for TypeScript type definitions. Modernized <code>@types/jqueryui</code> event signatures to use <code>JQuery.TriggeredEvent</code> generics for widget callbacks and <code>JQuery.Event</code> for caller methods with full contextual inference (<a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75855">PR #75855</a>).
       </p>
-      <code>TypeScript</code> • <code>DAVE MLS E2EE</code> • <code>Voice Engine</code>
+      <code>TypeScript</code> • <code>Type Systems</code> • <code>Contextual Inference</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🎨 <a href="https://github.com/lucide-icons/lucide">Lucide Icons</a></h4>
+      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Toolchain)</a></h4>
       <p>
-        Modern, consistent icon design system. Standardized statistical distribution column chart icon variants (unimodal, bimodal, uniform) on the 5-column base grid (<a href="https://github.com/lucide-icons/lucide/pull/5086">PR #5086</a>).
+        High-performance Rust toolchain for web projects. Implemented engine support for npm's official <code>SEE LICENSE IN &lt;file&gt;</code> specification in <code>noUntrustedLicenses</code> with UTF-8 boundary safety (<a href="https://github.com/biomejs/biome/pull/12704">PR #12704</a>).
       </p>
-      <code>SVG</code> • <code>Design Systems</code> • <code>Vector Geometry</code>
+      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer & Parser</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a></h4>
+      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice Engine)</a></h4>
       <p>
-        The premier high-performance Minecraft Java server. Fixed Checkstyle AST rules enforcing parameter description alignment in the presence of inline Javadoc link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>).
+        The flagship JavaScript library for Discord. Patched DAVE MLS voice encryption session recovery when transition ID is 0 (<a href="https://github.com/discordjs/discord.js/pull/11667">PR #11667</a>).
       </p>
-      <code>Java</code> • <code>AST Checkstyle</code> • <code>Server Core</code>
+      <code>TypeScript</code> • <code>DAVE MLS E2EE</code> • <code>Voice Engine</code>
     </td>
   </tr>
   <tr>
@@ -325,11 +328,11 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🔷 <a href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a></h4>
+      <h4>🎨 <a href="https://github.com/lucide-icons/lucide">Lucide Icons</a></h4>
       <p>
-        The central repository for TypeScript type definitions. Modernized 31 deprecated <code>JQueryEventObject</code> definitions to <code>JQuery.Event</code> in <code>@types/jqueryui</code> (<a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75855">PR #75855</a>).
+        Modern, consistent icon design system. Standardized statistical distribution column chart icon variants (unimodal, bimodal, uniform) on the 5-column base grid (<a href="https://github.com/lucide-icons/lucide/pull/5086">PR #5086</a>).
       </p>
-      <code>TypeScript</code> • <code>Type Systems</code> • <code>Ecosystem</code>
+      <code>SVG</code> • <code>Design Systems</code> • <code>Vector Geometry</code>
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite & Quest Helper</a></h4>
