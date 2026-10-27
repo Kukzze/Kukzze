@@ -112,7 +112,7 @@
     <td width="50%" valign="top">
       <div align="center">
         <a href="https://www.nvidia.com/en-us/startups/">
-          <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
+          <img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/nvidia-inception-badge.png" height="42" alt="NVIDIA Inception Program Badge" />
         </a>
       </div>
       <br/>
