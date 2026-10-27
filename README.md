@@ -61,7 +61,7 @@
 - 🚀 **Founder & Lead Developer** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
 - 🌟 **Startup Ecosystem**: Member of **[MongoDB for Startups](https://www.mongodb.com/startups)** & **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**
 - ⚡ **Core Stack**: Full-Stack Architecture, Next.js, TypeScript, Java (JDK 21), Node.js, MongoDB & High-Concurrency APIs
-- 🌐 **Open-Source Contributor**: Upstream contributor to **[PaperMC](https://github.com/PaperMC/Paper)**, **[Mozilla MDN Web Docs](https://github.com/mdn/content)**, **[Discord JDA](https://github.com/discord-jda/JDA)**, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, and **[RuneLite](https://github.com/runelite/runelite)**
+- 🌐 **Open-Source Contributor**: Upstream contributor to **[Biome](https://github.com/biomejs/biome)**, **[Discord.js](https://github.com/discordjs/discord.js)**, **[Lucide Icons](https://github.com/lucide-icons/lucide)**, **[PaperMC](https://github.com/PaperMC/Paper)**, **[Mozilla MDN Web Docs](https://github.com/mdn/content)**, **[Discord JDA](https://github.com/discord-jda/JDA)**, **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)**, and **[RuneLite](https://github.com/runelite/runelite)**
 - 📱 **Current Venture**: Scaling **Chic Builder** and launching the native mobile build on the **Google Play Store**
 - 📍 **Location**: India 🇮🇳 (UTC +05:30)
 - 💬 **Let's Talk**: High-performance web apps, distributed systems, gaming client internals, or collaboration opportunities
@@ -133,12 +133,37 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
+      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler & Linter)</a></h4>
+      <p>
+        High-performance Rust toolchain for JavaScript & TypeScript. Added engine support for npm's <code>SEE LICENSE IN &lt;file&gt;</code> custom license specification in <code>noUntrustedLicenses</code> (<a href="https://github.com/biomejs/biome/pull/12704">PR #12704</a>).
+      </p>
+      <code>Rust</code> • <code>AST / Linter</code> • <code>Compiler Engine</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice / E2EE)</a></h4>
+      <p>
+        The ubiquitous JavaScript library for Discord bots. Patched DAVE MLS voice encryption session recovery when transition ID is 0 (<a href="https://github.com/discordjs/discord.js/pull/11667">PR #11667</a>).
+      </p>
+      <code>TypeScript</code> • <code>DAVE E2EE</code> • <code>Voice Engine</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎨 <a href="https://github.com/lucide-icons/lucide">Lucide Icons</a></h4>
+      <p>
+        Modern, consistent icon design system. Standardized statistical distribution column chart icon variants aligned to the 5-column base grid (<a href="https://github.com/lucide-icons/lucide/pull/5086">PR #5086</a>).
+      </p>
+      <code>SVG</code> • <code>Design Systems</code> • <code>Vector Geometry</code>
+    </td>
+    <td width="50%" valign="top">
       <h4>🌲 <a href="https://github.com/PaperMC/Paper">PaperMC / Paper</a></h4>
       <p>
         The premier high-performance Minecraft Java server. Patched custom Checkstyle AST rules enforcing parameter alignment in the presence of inline link tags (<a href="https://github.com/PaperMC/Paper/pull/14427">PR #14427</a>).
       </p>
       <code>Java</code> • <code>AST / Checkstyle</code> • <code>Server Core</code>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4>📖 <a href="https://github.com/mdn/content">Mozilla MDN Web Docs</a></h4>
       <p>
@@ -146,8 +171,6 @@
       </p>
       <code>Web Specs</code> • <code>WHATWG HTML</code> • <code>Web Security</code>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h4>🤖 <a href="https://github.com/discord-jda/JDA">Discord JDA</a></h4>
       <p>
@@ -155,12 +178,21 @@
       </p>
       <code>Java</code> • <code>Discord API</code> • <code>Gateway / REST</code>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4>🔷 <a href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a></h4>
       <p>
         The central repository for TypeScript type definitions. Modernized 31 deprecated <code>JQueryEventObject</code> definitions to <code>JQuery.Event</code> in <code>@types/jqueryui</code> (<a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75855">PR #75855</a>).
       </p>
       <code>TypeScript</code> • <code>Type Systems</code> • <code>Ecosystem</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ <a href="https://github.com/Kukzze/mongo-next-sentinel">mongo-next-sentinel</a></h4>
+      <p>
+        High-performance connection pool auditor and leak detector tailored for Next.js App Router Server Actions & Serverless runtimes (<a href="https://github.com/Kukzze/mongo-next-sentinel">Repository</a>).
+      </p>
+      <code>TypeScript</code> • <code>MongoDB Atlas</code> • <code>Next.js 15</code>
     </td>
   </tr>
   <tr>
@@ -188,7 +220,7 @@
 <div align="center">
 
   <b>Languages & Frameworks</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=ts,js,java,nextjs,react,tailwind,html,css&perline=8" alt="Languages & Frameworks" />
+  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,nextjs,react,tailwind,html,css&perline=9" alt="Languages & Frameworks" />
   
   <br/><br/>
   
