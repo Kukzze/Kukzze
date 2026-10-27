@@ -397,11 +397,18 @@
 
 ---
 
-## Quick start
+## 🚀 Quick start
+
+Want a dynamic, high-performance developer portfolio like this? You can freely clone and use this template for your own profile:
 
 ```bash
 git clone https://github.com/Kukzze/Kukzze.git
 ```
+
+### 🌟 How to use this template:
+1. ⭐ **Star this repository** to save and support the project
+2. 🍴 **Fork the repo** and rename it to your GitHub username
+3. ✏️ Update your stats, ecosystem credentials, and social links in `README.md`
 
 <br/>
 
