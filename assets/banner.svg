@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050813" />
+      <stop offset="50%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#060914" />
+    </linearGradient>
+
+    <!-- Moving Horizon Light Beam -->
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Top Border Line -->
+    <linearGradient id="topBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-width="0.75" stroke-opacity="0.04" />
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .font-mono { font-family: "Cascadia Code", "Fira Code", Consolas, "JetBrains Mono", monospace; }
+
+    /* CSS Keyframe Animations */
+    @keyframes pulseGlow {
+      0%, 100% {
+        opacity: 0.22;
+        transform: scale(1) translate(0, 0);
+      }
+      50% {
+        opacity: 0.42;
+        transform: scale(1.15) translate(-20px, 10px);
+      }
+    }
+
+    @keyframes radarPing {
+      0% {
+        r: 3.5;
+        opacity: 0.9;
+        stroke-width: 1;
+      }
+      70% {
+        r: 14;
+        opacity: 0;
+        stroke-width: 2;
+      }
+      100% {
+        r: 14;
+        opacity: 0;
+        stroke-width: 0;
+      }
+    }
+
+    @keyframes sweepBeam {
+      0% {
+        transform: translateX(-400px);
+      }
+      100% {
+        transform: translateX(1300px);
+      }
+    }
+
+    @keyframes floatParticle {
+      0%, 100% {
+        transform: translateY(0px) opacity(0.3);
+      }
+      50% {
+        transform: translateY(-12px) opacity(0.8);
+      }
+    }
+
+    .ambient-1 {
+      animation: pulseGlow 7s ease-in-out infinite alternate;
+      transform-origin: 600px 80px;
+    }
+    .ambient-2 {
+      animation: pulseGlow 9s ease-in-out infinite alternate-reverse;
+      transform-origin: 900px 140px;
+    }
+    .radar-wave {
+      animation: radarPing 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      transform-origin: 435px 64px;
+    }
+    .radar-wave-delayed {
+      animation: radarPing 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite 1.2s;
+      transform-origin: 435px 64px;
+    }
+    .light-sweep {
+      animation: sweepBeam 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Nebulas -->
+  <ellipse class="ambient-1" cx="600" cy="60" rx="360" ry="140" fill="#0284c7" filter="url(#glow)" />
+  <ellipse class="ambient-2" cx="850" cy="140" rx="280" ry="120" fill="#8b5cf6" filter="url(#glow)" />
+
+  <!-- Tech Grid -->
+  <rect width="1200" height="280" fill="url(#grid)" />
+
+  <!-- Top Border Accent -->
+  <rect x="0" y="0" width="1200" height="1.5" fill="url(#topBorder)" />
+
+  <!-- Animated Bottom Horizon Laser -->
+  <g transform="translate(0, 278)">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <rect class="light-sweep" x="0" y="-1" width="300" height="2.5" fill="url(#beamGrad)" />
+  </g>
+
+  <!-- CENTER CONTENT -->
+  <g transform="translate(600, 140)" text-anchor="middle">
+
+    <!-- Eyebrow Pill -->
+    <g transform="translate(0, -76)">
+      <rect x="-165" y="0" width="330" height="28" rx="14" fill="#0369a1" fill-opacity="0.16" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" />
+      
+      <!-- Pulsing Radar Ping -->
+      <circle cx="-140" cy="14" r="3.5" fill="#38bdf8" />
+      <circle class="radar-wave" cx="-140" cy="14" r="3.5" fill="none" stroke="#38bdf8" />
+      <circle class="radar-wave-delayed" cx="-140" cy="14" r="3.5" fill="none" stroke="#38bdf8" />
+
+      <text x="10" y="18" fill="#38bdf8" class="font-mono" font-size="11.5" font-weight="700" letter-spacing="2">SYSTEMS &amp; ARCHITECTURE</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, -6)">
+      <text x="0" y="0" fill="#ffffff" class="font-sans" font-size="54" font-weight="900" letter-spacing="-1.5">DAKSH RAWAT</text>
+    </g>
+
+    <!-- Subtitle -->
+    <g transform="translate(0, 36)">
+      <text x="0" y="0" fill="#94a3b8" class="font-sans" font-size="16.5" font-weight="500" letter-spacing="-0.2">
+        Founder @ <tspan fill="#ffffff" font-weight="700">Chic Builder</tspan>
+        <tspan fill="#38bdf8"> ◆ </tspan>
+        MongoDB for Startups &amp; NVIDIA Inception
+        <tspan fill="#38bdf8"> ◆ </tspan>
+        Upstream Contributor
+      </text>
+    </g>
+
+    <!-- Live Status Telemetry Pill -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" fill="#64748b" class="font-mono" font-size="11.5" font-weight="600" letter-spacing="0.5">
+        BUILDING: <tspan fill="#38bdf8">chic-builder.vercel.app</tspan>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        PACKAGE: <tspan fill="#34d399">mongo-next-sentinel (npm)</tspan>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        ENGINES: <tspan fill="#f59e0b">Rust • TS • Java</tspan>
+      </text>
+    </g>
+
+  </g>
+</svg>
