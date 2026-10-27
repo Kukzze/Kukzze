@@ -395,6 +395,16 @@
 
 <br/>
 
+---
+
+## Quick start
+
+```bash
+git clone https://github.com/Kukzze/Kukzze.git
+```
+
+<br/>
+
 <div align="center">
   <!-- Waving Footer Banner -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%232563eb&custom_color_2=%23080c16&height=100&section=footer" width="100%" alt="Footer Banner" />
