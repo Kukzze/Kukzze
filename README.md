@@ -5,7 +5,7 @@
 
 <!-- Dynamic Animated Typing Text -->
 <a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%8F%8B%EF%B8%8F;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%F0%9F%9A%80;Contributor%3A+Biome+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%80%A2+MDN+%E2%80%A2+Lucide+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;Full-Stack+Architect+%E2%80%A2+TypeScript+%E2%80%A2+Rust+%E2%80%A2+Java+%E2%80%A2+Next.js+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%F0%9F%9A%80;MongoDB+for+Startups+%26+NVIDIA+Inception+Member+%E2%9C%A8;Participant%3A+W3C+Open+Source+Program+%E2%80%A2+Linux+Foundation+%F0%9F%8C%90;YC+Startup+School+Founder+%40+Excel+Masters+%F0%9F%93%8A;Upstream+OSS%3A+Biome+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%80%A2+MDN+%E2%9A%A1;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,6 +20,18 @@
   </a>
   <a href="https://www.nvidia.com/en-us/startups/" target="_blank">
     <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
+  </a>
+  <a href="https://www.w3.org/community/osprogram/" target="_blank">
+    <img src="https://img.shields.io/badge/W3C-Open%20Source%20Program-005A9C?style=for-the-badge&logo=w3c&logoColor=white" alt="W3C Participant" />
+  </a>
+  <a href="https://openprofile.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Linux%20Foundation-Verified%20Member-003366?style=for-the-badge&logo=linuxfoundation&logoColor=white" alt="Linux Foundation" />
+  </a>
+  <a href="https://www.startupschool.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Y%20Combinator-Startup%20School-FB651E?style=for-the-badge&logo=ycombinator&logoColor=white" alt="YC Startup School" />
+  </a>
+  <a href="https://bytecodealliance.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Bytecode%20Alliance-Community-1E1B4B?style=for-the-badge&logo=webassembly&logoColor=white" alt="Bytecode Alliance" />
   </a>
   <a href="https://github.com/Kukzze">
     <img src="https://img.shields.io/badge/Open%20Source-Contributor-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Contributor" />
@@ -59,7 +71,11 @@
 ### 👨‍💻 Engineering Profile
 
 - 🚀 **Founder & Systems Architect** at **[Chic Builder](https://chic-builder.vercel.app/)** & **[Excel Masters](https://github.com/ExcelMasters-in)**
-- 🌟 **Startup Accelerators**: Accepted into the **[MongoDB for Startups](https://www.mongodb.com/startups)** cohort & member of the **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**
+- 🌟 **Startup Accelerators & Fellowships**: Accepted into the **[MongoDB for Startups](https://www.mongodb.com/startups)** cohort, **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**, and **[Y Combinator Startup School](https://www.startupschool.org/)** (Excel Masters)
+- 🌐 **Global Standards & Open-Source Foundations**:
+  - **[W3C (World Wide Web Consortium)](https://www.w3.org/community/osprogram/)** *(Official Participant • W3C Open Source Program Community Group)*
+  - **[The Linux Foundation](https://openprofile.dev/)** *(Verified Member • LF ID: `Kukzze` on LFX)*
+  - **[Bytecode Alliance](https://bytecodealliance.org/)** *(WebAssembly & Rust Systems Community)*
 - ⚡ **Core Stack**: TypeScript, Rust, Java (JDK 21), Next.js 15 App Router, MongoDB Atlas, Node.js & Distributed Systems
 - 🌐 **Upstream Open-Source Contributor**:
   - **[Biome](https://github.com/biomejs/biome)** *(Rust Compiler & Linter)*
@@ -89,9 +105,9 @@
       <p align="left">
         <b>Official Member • MongoDB for Startups Cohort</b>
         <ul>
-          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document stores</li>
-          <li>Leveraging MongoDB Atlas Serverless, Vector Search & automated connection pooling</li>
-          <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — connection pool auditor for Next.js App Router</li>
+          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document backends</li>
+          <li>Leveraging MongoDB Atlas Serverless, Vector Search & connection pooling</li>
+          <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — serverless connection pool auditor</li>
         </ul>
       </p>
     </td>
@@ -103,11 +119,45 @@
       </div>
       <br/>
       <p align="left">
-        <b>Official Member • NVIDIA Inception Accelerator</b>
+        <b>Official Member • NVIDIA Inception Program</b>
         <ul>
-          <li>Selected for NVIDIA's premier global startup program supporting AI and high-performance computing</li>
-          <li>Access to GPU hardware acceleration, technical advisory & deep learning developer tools</li>
-          <li>Powering intelligent analytics and volume progression models in athletic tech</li>
+          <li>Member of NVIDIA's global startup incubator for cutting-edge AI ventures</li>
+          <li>Access to GPU hardware acceleration, technical advisory & deep learning developer kits</li>
+          <li>Powering real-time layout synthesis and AI component generation in Chic Builder</li>
+        </ul>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://www.w3.org/community/osprogram/">
+          <img src="https://img.shields.io/badge/W3C-Open%20Source%20Program-005A9C?style=for-the-badge&logo=w3c&logoColor=white" alt="W3C Open Source Program" />
+        </a>
+      </div>
+      <br/>
+      <p align="left">
+        <b>Official Participant • World Wide Web Consortium (W3C)</b>
+        <ul>
+          <li>Participant in the <b>W3C Open Source Program Community Group</b></li>
+          <li>Incubating open standards, web APIs, and developer toolchain alignment</li>
+          <li>Bridging upstream open-source codebases with global web platform specifications</li>
+        </ul>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <a href="https://openprofile.dev/">
+          <img src="https://img.shields.io/badge/Linux%20Foundation-Verified%20Member-003366?style=for-the-badge&logo=linuxfoundation&logoColor=white" alt="The Linux Foundation" />
+        </a>
+      </div>
+      <br/>
+      <p align="left">
+        <b>Verified Member • The Linux Foundation (LF ID: Kukzze)</b>
+        <ul>
+          <li>Active profile and verified credentials across the <b>Linux Foundation (LFX)</b></li>
+          <li>Contributing to cloud-native open source, toolchains, and developer ecosystems</li>
+          <li>Part of the <b>Bytecode Alliance</b> community advancing WebAssembly and Rust runtime tooling</li>
         </ul>
       </p>
     </td>
