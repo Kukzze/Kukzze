@@ -1,36 +1,34 @@
 <div align="center">
 
-<!-- Bespoke High-Resolution Vector Banner -->
-<img src="./assets/banner.svg" width="100%" alt="Daksh Rawat (Kukzze) - Founder & Systems Architect" />
-
-<br/>
-
-<!-- Dynamic Terminal Typing Line -->
-<a href="https://github.com/Kukzze">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Founder+%26+Systems+Architect+%40+Chic+Builder+%E2%9A%A1;MongoDB+for+Startups+%26+NVIDIA+Inception+Accelerators+%F0%9F%9A%80;Upstream+Engines%3A+Biome+(Rust)+%E2%80%A2+Discord.js+%E2%80%A2+PaperMC+%E2%9C%A8;Creator+of+mongo-next-sentinel+(Serverless+MongoDB)+%F0%9F%9B%A1%EF%B8%8F;22.8k%2B+Athlete+Community+Builder+%F0%9F%8F%8B%EF%B8%8F" alt="Typing SVG" />
-</a>
+<!-- Minimalist Linear-Style Dark Banner -->
+<img src="./assets/banner.png" width="100%" alt="Daksh Rawat - Founder & Systems Architect" />
 
 <br/><br/>
 
-<!-- Social & Venture Links -->
+<!-- Clean Social & Project Links -->
 <p align="center">
   <a href="https://linkedin.com/in/kukzze" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="https://chic-builder.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Chic%20Builder-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Chic Builder" />
+    <img src="https://img.shields.io/badge/Chic_Builder-8B5CF6?style=flat-square&logo=vercel&logoColor=white" alt="Chic Builder" />
   </a>
+  &nbsp;
   <a href="https://www.npmjs.com/package/mongo-next-sentinel" target="_blank">
-    <img src="https://img.shields.io/badge/npm-mongo--next--sentinel-cb3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+    <img src="https://img.shields.io/badge/npm-mongo--next--sentinel-cb3837?style=flat-square&logo=npm&logoColor=white" alt="npm package" />
   </a>
+  &nbsp;
   <a href="https://discord.gg/7vaHhewmtJ" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
   </a>
+  &nbsp;
   <a href="https://instagram.com/kukzze" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-22.8K-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-22.8k-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  &nbsp;
   <a href="mailto:kukzze@excelmasters.in">
-    <img src="https://img.shields.io/badge/Contact-kukzze%40excelmasters.in-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Contact-kukzze%40excelmasters.in-10b981?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -38,38 +36,34 @@
 
 ---
 
-### ⚡ Telemetry & Diagnostics
+### 👨‍💻 About Me
 
-```bash
-kukzze@production:~$ ./status --verbose
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ FOUNDER      : Chic Builder (chic-builder.vercel.app) & Excel Masters       │
-│ ACCELERATORS : MongoDB for Startups Cohort ✦ NVIDIA Inception Member        │
-│ CORE STACK   : TypeScript • Rust • Java (JDK 21) • Next.js 15 • MongoDB     │
-│ UPSTREAM OSS : Biome • Discord.js • PaperMC • DefinitelyTyped • Lucide      │
-│ AUDIENCE     : 22.8k+ Creator Community (@kukzze) 🏋️‍♂️                       │
-│ STATUS       : Live PWA ✦ Google Play Store Native Release Imminent 📱     │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+Founder and systems developer building high-performance web software and distributed architectures.
+
+- 🚀 **Founder & Systems Architect** at **[Chic Builder](https://chic-builder.vercel.app/)** — adaptive workout tracking, volume intelligence, and ranked community fitness.
+- 🏛️ **Accelerators**: Accepted into the **[MongoDB for Startups](https://www.mongodb.com/startups)** cohort and member of the **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**.
+- 🛡️ **Package Creator**: Built and published **[`mongo-next-sentinel`](https://www.npmjs.com/package/mongo-next-sentinel)** — Next.js Serverless MongoDB pool auditor & leak detector.
+- ⚡ **Core Stack**: TypeScript, Rust, Java (JDK 21), Next.js 15, and MongoDB Atlas.
+- 🌐 **Upstream Contributor**: Active contributor across major production engines in Rust, Java, and TypeScript.
 
 ---
 
-### 🏛️ Startup Ecosystems & Accelerators
+### 🏛️ Startup Ecosystems
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <div align="center">
         <a href="https://www.mongodb.com/startups">
-          <img src="https://img.shields.io/badge/MongoDB%20for%20Startups-Accelerated%20Cohort-00ED64?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB for Startups" />
+          <img src="https://img.shields.io/badge/MongoDB%20for%20Startups-Cohort%20Member-00ED64?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB for Startups" />
         </a>
       </div>
       <br/>
       <p align="left">
         <b>Official Member • MongoDB for Startups Cohort</b>
         <ul>
-          <li>Partnered with MongoDB for scaling <b>Chic Builder</b>'s distributed document architectures</li>
-          <li>Leveraging MongoDB Atlas Serverless, Vector Search &amp; automated connection pooling</li>
+          <li>Partnered with MongoDB to scale <b>Chic Builder</b>'s distributed document stores</li>
+          <li>Leveraging Atlas Serverless, Vector Search & automated connection pooling</li>
           <li>Author of <a href="https://github.com/Kukzze/mongo-next-sentinel"><b>mongo-next-sentinel</b></a> — connection pool auditor for Next.js App Router</li>
         </ul>
       </p>
@@ -77,16 +71,16 @@ kukzze@production:~$ ./status --verbose
     <td width="50%" valign="top">
       <div align="center">
         <a href="https://www.nvidia.com/en-us/startups/">
-          <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
+          <img src="https://img.shields.io/badge/NVIDIA%20Inception-Program%20Member-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Inception" />
         </a>
       </div>
       <br/>
       <p align="left">
         <b>Official Member • NVIDIA Inception Accelerator</b>
         <ul>
-          <li>Selected for NVIDIA's premier global startup program supporting AI and high-performance computing</li>
-          <li>Access to GPU hardware acceleration, technical advisory &amp; deep learning developer tools</li>
-          <li>Powering intelligent volume progression models &amp; predictive workout analytics</li>
+          <li>Selected for NVIDIA's global startup program supporting AI and high-performance computing</li>
+          <li>Access to GPU hardware acceleration, technical advisory & deep learning developer tools</li>
+          <li>Powering intelligent volume progression models & predictive athletic analytics</li>
         </ul>
       </p>
     </td>
@@ -95,7 +89,7 @@ kukzze@production:~$ ./status --verbose
 
 ---
 
-### 🚀 Featured Platforms & Original Libraries
+### 🚀 Featured Platforms & Packages
 
 <table width="100%">
   <tr>
@@ -111,16 +105,16 @@ kukzze@production:~$ ./status --verbose
       </div>
       <br/>
       <p align="left">
-        <b>100% Free Custom Workout &amp; Ranked Fitness Platform</b>
+        <b>100% Free Custom Workout & Ranked Fitness Platform</b>
         <ul>
-          <li>Intelligent volume scaling, custom workout routines &amp; daily habit tracking</li>
-          <li>Progress analytics, personal record auditing &amp; interactive visual charts</li>
+          <li>Intelligent volume scaling, custom workout routines & daily habit tracking</li>
+          <li>Progress analytics, personal record auditing & interactive visual charts</li>
           <li>Competitive ranked community leaderboards to stay motivated</li>
           <li>📱 <i>Releasing soon as a native build on the <b>Google Play Store</b>!</i></li>
         </ul>
       </p>
       <div align="center">
-        <code>Next.js 15</code> • <code>TypeScript</code> • <code>MongoDB Atlas</code> • <code>Tailwind CSS</code> • <code>PWA</code>
+        <code>Next.js 15</code> • <code>TypeScript</code> • <code>MongoDB Atlas</code> • <code>Tailwind CSS</code>
       </div>
     </td>
     <td width="50%" valign="top">
@@ -135,12 +129,12 @@ kukzze@production:~$ ./status --verbose
       </div>
       <br/>
       <p align="left">
-        <b>Next.js Serverless MongoDB Pool Auditor &amp; Leak Detector</b>
+        <b>Next.js Serverless MongoDB Pool Auditor & Leak Detector</b>
         <ul>
-          <li>Microsecond CMAP event tracking for Server Actions &amp; Route Handlers</li>
-          <li>Detects unclosed cursors, socket hoarding &amp; hot-reload duplicate pools</li>
+          <li>Microsecond CMAP event tracking for Server Actions & Route Handlers</li>
+          <li>Detects unclosed cursors, socket hoarding & hot-reload duplicate pools</li>
           <li>Prevents Atlas connection exhaustion storms in stateless worker environments</li>
-          <li>Dual ESM &amp; CommonJS build with zero runtime dependency overhead</li>
+          <li>Dual ESM & CommonJS build with zero runtime dependency overhead</li>
         </ul>
       </p>
       <div align="center">
@@ -161,12 +155,11 @@ kukzze@production:~$ ./status --verbose
       </div>
       <br/>
       <p align="left">
-        <b>Official Web Platform &amp; Interactive Learning Hub</b>
+        <b>Official Web Platform & Interactive Learning Hub</b>
         <ul>
-          <li>High-speed learning portal built with Next.js App Router &amp; TypeScript</li>
-          <li>Educational spreadsheets, dataset templates &amp; student workflow tools</li>
+          <li>High-speed learning hub built with Next.js App Router & TypeScript</li>
+          <li>Comprehensive educational spreadsheets, dataset templates & student tools</li>
           <li>Automated community backend via <a href="https://github.com/Kukzze/chic-bot-service"><b>Chic Bot Service</b></a></li>
-          <li>🤖 <i>Automated role gating, member analytics &amp; realtime event dispatch</i></li>
         </ul>
       </p>
       <div align="center">
@@ -185,10 +178,10 @@ kukzze@production:~$ ./status --verbose
       </div>
       <br/>
       <p align="left">
-        <b>Player Progression Astrolabe &amp; Readiness Auditor for RuneLite</b>
+        <b>Player Progression Astrolabe & Readiness Auditor for RuneLite</b>
         <ul>
-          <li>Deep integration with RuneLite client APIs, skill calculators &amp; cache items</li>
-          <li>Automated achievement diary auditing, quest step mapping &amp; boss gear readiness</li>
+          <li>Deep integration with RuneLite client APIs, skill calculators & cache items</li>
+          <li>Automated achievement diary auditing, quest step mapping & boss gear readiness</li>
           <li>Zero reflection overhead, clean standard architecture with 13 unit test suites</li>
         </ul>
       </p>
@@ -206,14 +199,14 @@ kukzze@production:~$ ./status --verbose
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler &amp; Linter)</a></h4>
+      <h4>🦀 <a href="https://github.com/biomejs/biome">Biome (Rust Compiler & Linter)</a></h4>
       <p>
         High-performance Rust toolchain for web projects. Implemented engine support for npm's official <code>SEE LICENSE IN &lt;file&gt;</code> specification in <code>noUntrustedLicenses</code> with UTF-8 boundary safety and compound rule preservation (<a href="https://github.com/biomejs/biome/pull/12704">PR #12704</a>).
       </p>
-      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer &amp; Parser</code>
+      <code>Rust</code> • <code>AST / Linter</code> • <code>Lexer & Parser</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice Engine &amp; E2EE)</a></h4>
+      <h4>🎙️ <a href="https://github.com/discordjs/discord.js">Discord.js (Voice Engine & E2EE)</a></h4>
       <p>
         The standard JavaScript library for Discord. Patched DAVE MLS voice encryption session recovery when transition ID is 0 (<a href="https://github.com/discordjs/discord.js/pull/11667">PR #11667</a>).
       </p>
@@ -240,7 +233,7 @@ kukzze@production:~$ ./status --verbose
     <td width="50%" valign="top">
       <h4>📖 <a href="https://github.com/mdn/content">Mozilla MDN Web Docs</a></h4>
       <p>
-        The authoritative global web platform documentation. Documented WHATWG HTML origin-keyed agent clusters default and <code>?0</code> opt-out for browser process isolation (<a href="https://github.com/mdn/content/pull/46305">PR #46305</a>).
+        The authoritative global web documentation. Documented WHATWG HTML origin-keyed agent clusters default and <code>?0</code> opt-out for browser process isolation (<a href="https://github.com/mdn/content/pull/46305">PR #46305</a>).
       </p>
       <code>Web Specs</code> • <code>WHATWG HTML</code> • <code>Browser Security</code>
     </td>
@@ -261,7 +254,7 @@ kukzze@production:~$ ./status --verbose
       <code>TypeScript</code> • <code>Type Systems</code> • <code>Ecosystem</code>
     </td>
     <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite &amp; Quest Helper</a></h4>
+      <h4>🛡️ <a href="https://github.com/runelite/runelite">RuneLite & Quest Helper</a></h4>
       <p>
         Contributed Blood Moon skilling calculation methods (<a href="https://github.com/runelite/runelite/pull/20613">PR #20613</a>) and optimal grapple route improvements (<a href="https://github.com/Zoinkwiz/quest-helper/pull/2875">PR #2875</a>).
       </p>
@@ -272,7 +265,7 @@ kukzze@production:~$ ./status --verbose
 
 ---
 
-### 🛠️ Core Stack & Infrastructure
+### 🛠️ Languages & Technologies
 
 <div align="center">
 
@@ -286,28 +279,28 @@ kukzze@production:~$ ./status --verbose
 
   <br/><br/>
 
-  <b>Databases, Cloud & Developer Tooling</b><br/><br/>
+  <b>Databases, Cloud & Tooling</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=mongodb,vercel,git,github,vscode,discord,postman&perline=7" alt="Databases & Tools" />
 
 </div>
 
 ---
 
-### 📊 GitHub Activity & Real-Time Stats
+### 📊 GitHub Activity
 
 <div align="center">
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" height="185" alt="Daksh's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" height="185" alt="Daksh's GitHub Stats" />
       </td>
       <td align="center" valign="middle">
-        <img src="https://streak-stats.demolab.com/?user=Kukzze&theme=tokyonight&hide_border=true&background=050811&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" height="185" alt="Daksh's GitHub Streak" />
+        <img src="https://streak-stats.demolab.com/?user=Kukzze&theme=tokyonight&hide_border=true&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" height="185" alt="Daksh's GitHub Streak" />
       </td>
     </tr>
   </table>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukzze&layout=compact&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38bdf8&text_color=94a3b8" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kukzze&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" height="165" alt="Top Languages" />
 </div>
 
 ---
@@ -326,6 +319,6 @@ kukzze@production:~$ ./status --verbose
 
 <div align="center">
   <p align="center">
-    <sub>Crafted with ⚡ by <b><a href="https://github.com/Kukzze">Daksh Rawat (Kukzze)</a></b> • Star my repositories if you find them helpful!</sub>
+    <sub>Crafted with ⚡ by <b><a href="https://github.com/Kukzze">Daksh Rawat (Kukzze)</a></b></sub>
   </p>
 </div>
