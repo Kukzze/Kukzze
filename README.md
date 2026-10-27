@@ -371,7 +371,7 @@
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&hide_rank=true" height="185" alt="Daksh's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Kukzze&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9" height="185" alt="Daksh's GitHub Stats" />
       </td>
       <td align="center" valign="middle">
         <img src="https://streak-stats.demolab.com/?user=Kukzze&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" height="185" alt="Daksh's GitHub Streak" />
