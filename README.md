@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Linear-Inspired Deep Canvas Waving Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%23010102&custom_color_2=%235e6ad2&height=225&section=header&text=Daksh%20Rawat&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Compilers%20%26%20Distributed%20Runtimes&descAlignY=58&descAlign=50" width="100%" alt="Daksh Rawat - Founder & Systems Architect" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_1=%23080c16&custom_color_2=%235e6ad2&height=225&section=header&text=Daksh%20Rawat&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20%E2%80%A2%20Systems%20Architect%20%E2%80%A2%20Compilers%20%E2%80%A2%20Distributed%20Runtimes&descAlignY=58&descAlign=50" width="100%" alt="Daksh Rawat - Founder & Systems Architect" />
 
 <!-- Dynamic Animated Typing Text -->
 <a href="https://github.com/Kukzze">
