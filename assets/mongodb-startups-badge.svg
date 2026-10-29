@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 216" width="500" height="216">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001E2B"/>
+      <stop offset="100%" stop-color="#023430"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ED64" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00684A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00ED64" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ED64"/>
+      <stop offset="100%" stop-color="#00684A"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Container Box with Rounded Glass Border -->
+  <rect x="12" y="12" width="476" height="192" rx="18" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5"/>
+
+  <!-- Subtle glow accent behind leaf -->
+  <circle cx="95" cy="108" r="45" fill="#00ED64" opacity="0.15" filter="url(#glow)"/>
+
+  <!-- Official MongoDB Leaf Path -->
+  <g transform="translate(62, 50) scale(1.15)">
+    <!-- Right leaf side -->
+    <path d="M 28.5 0 C 28.5 0, 31 10, 33 22 C 35.5 37, 33.5 54, 28.5 68 C 28.5 68, 27 69, 26 69.5 C 26 69.5, 27 62, 27.5 53 C 28.5 38, 26.5 25, 24 16 C 22.5 10, 28.5 0, 28.5 0 Z" fill="#00684A"/>
+    <!-- Left leaf side -->
+    <path d="M 28.5 0 C 28.5 0, 22.5 9, 17 21 C 11.5 33, 8 49, 12 65 C 14.5 75, 23 88, 27.5 98 C 28 99, 29 99, 29.5 98 C 34 88, 42.5 75, 45 65 C 49 49, 45.5 33, 40 21 C 34.5 9, 28.5 0, 28.5 0 Z" fill="url(#leafGrad)"/>
+    <!-- Center spine accent -->
+    <path d="M 28.5 12 L 28.5 92" stroke="#001E2B" stroke-width="1.8" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Typography: MongoDB -->
+  <text x="150" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Euclid Circular A', Roboto, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+    MongoDB
+  </text>
+
+  <!-- Subtitle: FOR STARTUPS -->
+  <g transform="translate(150, 112)">
+    <rect x="0" y="0" width="168" height="26" rx="6" fill="#00ED64" fill-opacity="0.16" stroke="#00ED64" stroke-width="1.2"/>
+    <text x="84" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Euclid Circular A', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00ED64" letter-spacing="2.2" text-anchor="middle">
+      FOR STARTUPS
+    </text>
+  </g>
+
+  <!-- Tagline: Cohort Partner & Accelerated Startup -->
+  <text x="150" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#93C5FD" opacity="0.85" letter-spacing="0.3">
+    Official Startup Cohort • Cloud &amp; AI Partner
+  </text>
+</svg>
