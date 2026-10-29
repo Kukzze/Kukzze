@@ -1,8 +1,14 @@
 <a href="https://github.com/Kukzze">
-  <img src="assets/hero.svg" width="100%" alt="Daksh Rawat — founder and systems architect. Terminal HUD showing ventures, packages and compiler targets." />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/hero.svg" />
+    <img src="assets/hero.svg" width="100%" alt="Daksh Rawat — founder and systems architect. Terminal HUD showing ventures, packages and compiler targets." />
+  </picture>
 </a>
 
-<img src="assets/programs.svg" width="100%" alt="NVIDIA Inception · MongoDB for Startups · YC Startup School · W3C Open Source CG · Linux Foundation LFX" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/programs.svg" />
+  <img src="assets/programs.svg" width="100%" alt="NVIDIA Inception · MongoDB for Startups · YC Startup School · W3C Open Source CG · Linux Foundation LFX" />
+</picture>
 
 <p align="center">
   <a href="https://www.excelmasters.in/"><img src="https://img.shields.io/badge/excelmasters.in-0c101d?style=flat-square&logo=googlechrome&logoColor=00ED64" alt="Excel Masters" /></a>
@@ -14,17 +20,54 @@
   <a href="mailto:kukzze@excelmasters.in"><img src="https://img.shields.io/badge/kukzze@excelmasters.in-0c101d?style=flat-square&logo=maildotru&logoColor=00e5ff" alt="Email" /></a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center" width="340">
+      <a href="https://www.nvidia.com/en-us/startups/"><img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/nvidia-inception-badge.svg" height="52" alt="Official NVIDIA Inception Member" /></a><br/>
+      <sub><b>NVIDIA Inception</b> · AI & accelerated computing</sub>
+    </td>
+    <td align="center" width="340">
+      <a href="https://www.mongodb.com/startups"><img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/mongodb-startups-badge.svg" height="52" alt="Official MongoDB for Startups Cohort" /></a><br/>
+      <sub><b>MongoDB for Startups</b> · Atlas cohort</sub>
+    </td>
+  </tr>
+</table>
+
 <br/>
 
-<img src="assets/h-telemetry.svg" width="100%" alt="00 — Live Telemetry" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-telemetry.svg" />
+  <img src="assets/h-telemetry.svg" width="100%" alt="00 — Live Telemetry" />
+</picture>
 
-<img src="assets/telemetry.svg" width="100%" alt="Live GitHub telemetry: contributions, streak, commits, upstream PRs, language mix, 90-day activity and latest pull requests" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/telemetry.svg" />
+  <img src="assets/telemetry.svg" width="100%" alt="Live GitHub telemetry: contributions, streak, commits, upstream PRs, language mix, 90-day activity and latest pull requests" />
+</picture>
 
-<img src="assets/h-ventures.svg" width="100%" alt="01 — Ventures" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/shipping.svg" />
+  <img src="assets/shipping.svg" width="100%" alt="Shipping log: latest commits and releases across public repos" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-ventures.svg" />
+  <img src="assets/h-ventures.svg" width="100%" alt="01 — Ventures" />
+</picture>
 
 <p align="center">
-  <a href="https://www.excelmasters.in/"><img src="assets/v-excelmasters.svg" width="49.5%" alt="Excel Masters — deterministic AI spreadsheet intelligence" /></a>
-  <a href="https://chic-builder.vercel.app/"><img src="assets/v-chicbuilder.svg" width="49.5%" alt="Chic Builder — AI workouts and ranked fitness PWA" /></a>
+  <a href="https://www.excelmasters.in/">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/v-excelmasters.svg" />
+    <img src="assets/v-excelmasters.svg" width="49.5%" alt="Excel Masters — deterministic AI spreadsheet intelligence" />
+  </picture>
+  </a>
+  <a href="https://chic-builder.vercel.app/">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/v-chicbuilder.svg" />
+    <img src="assets/v-chicbuilder.svg" width="49.5%" alt="Chic Builder — AI workouts and ranked fitness PWA" />
+  </picture>
+  </a>
 </p>
 
 <details>
@@ -46,7 +89,10 @@ flowchart LR
 
 </details>
 
-<img src="assets/h-systems.svg" width="100%" alt="02 — Live Production Systems" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-systems.svg" />
+  <img src="assets/h-systems.svg" width="100%" alt="02 — Live Production Systems" />
+</picture>
 
 <table width="100%">
   <thead>
@@ -105,9 +151,17 @@ flowchart LR
   </tbody>
 </table>
 
-<img src="assets/h-packages.svg" width="100%" alt="03 — Open Core & Packages" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-packages.svg" />
+  <img src="assets/h-packages.svg" width="100%" alt="03 — Open Core & Packages" />
+</picture>
 
-<a href="https://github.com/Kukzze/mongo-next-sentinel"><img src="assets/p-sentinel.svg" width="100%" alt="mongo-next-sentinel v1.1.0 — MongoDB connection-pool leak detector for Next.js" /></a>
+<a href="https://github.com/Kukzze/mongo-next-sentinel">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/p-sentinel.svg" />
+  <img src="assets/p-sentinel.svg" width="100%" alt="mongo-next-sentinel v1.1.0 — MongoDB connection-pool leak detector for Next.js" />
+</picture>
+</a>
 
 <details>
 <summary><b>⟢ Architecture: mongo-next-sentinel event pipeline & circuit breaker</b> <sub>(click to expand)</sub></summary>
@@ -137,15 +191,43 @@ stateDiagram-v2
 </details>
 
 <p align="center">
-  <a href="https://github.com/ExcelMasters-in/formula-core"><img src="assets/p-formulacore.svg" width="49.5%" alt="formula-core — zero-dependency spreadsheet formula engine" /></a>
-  <a href="https://github.com/ChicBuilder/chic-core"><img src="assets/p-chiccore.svg" width="49.5%" alt="chic-core — biomechanics calculation engine" /></a>
-  <a href="https://github.com/Kukzze/astrarium"><img src="assets/p-astrarium.svg" width="49.5%" alt="Astrarium — RuneLite progression and readiness plugin" /></a>
-  <a href="https://github.com/Kukzze/grotesque-solar-blasts"><img src="assets/p-grotesque.svg" width="49.5%" alt="Grotesque Solar Blasts — RuneLite visual plugin" /></a>
+  <a href="https://github.com/ExcelMasters-in/formula-core">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/p-formulacore.svg" />
+    <img src="assets/p-formulacore.svg" width="49.5%" alt="formula-core — zero-dependency spreadsheet formula engine" />
+  </picture>
+  </a>
+  <a href="https://github.com/ChicBuilder/chic-core">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/p-chiccore.svg" />
+    <img src="assets/p-chiccore.svg" width="49.5%" alt="chic-core — biomechanics calculation engine" />
+  </picture>
+  </a>
+  <a href="https://github.com/Kukzze/astrarium">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/p-astrarium.svg" />
+    <img src="assets/p-astrarium.svg" width="49.5%" alt="Astrarium — RuneLite progression and readiness plugin" />
+  </picture>
+  </a>
+  <a href="https://github.com/Kukzze/grotesque-solar-blasts">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/light/p-grotesque.svg" />
+    <img src="assets/p-grotesque.svg" width="49.5%" alt="Grotesque Solar Blasts — RuneLite visual plugin" />
+  </picture>
+  </a>
 </p>
 
-<img src="assets/h-upstream.svg" width="100%" alt="04 — Upstream Hall of Fame" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-upstream.svg" />
+  <img src="assets/h-upstream.svg" width="100%" alt="04 — Upstream Hall of Fame" />
+</picture>
 
-<a href="https://github.com/PaperMC/Paper/pull/14427"><img src="assets/hof-paper.svg" width="100%" alt="Merged: PaperMC/Paper #14427 — Fix JavadocAlignParameterDescriptionCheck with inline tags" /></a>
+<a href="https://github.com/PaperMC/Paper/pull/14427">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/hof-paper.svg" />
+  <img src="assets/hof-paper.svg" width="100%" alt="Merged: PaperMC/Paper #14427 — Fix JavadocAlignParameterDescriptionCheck with inline tags" />
+</picture>
+</a>
 
 <table width="100%">
   <thead>
@@ -211,16 +293,32 @@ stateDiagram-v2
   </tbody>
 </table>
 
-<img src="assets/h-stack.svg" width="100%" alt="05 — Compiler Targets & Stack" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-stack.svg" />
+  <img src="assets/h-stack.svg" width="100%" alt="05 — Compiler Targets & Stack" />
+</picture>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,html,css,bash&theme=dark" alt="TypeScript, JavaScript, Rust, Java, HTML, CSS, Bash" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,bun,tailwind,vite,mongodb,vercel,aws,githubactions&theme=dark" alt="Next.js, React, Node.js, Bun, Tailwind, Vite, MongoDB, Vercel, AWS, GitHub Actions" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,rust,java,html,css,bash&theme=light" />
+    <img src="https://skillicons.dev/icons?i=ts,js,rust,java,html,css,bash&theme=dark" alt="TypeScript, JavaScript, Rust, Java, HTML, CSS, Bash" />
+  </picture>
+  <br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,react,nodejs,bun,tailwind,vite,mongodb,vercel,aws,githubactions&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,bun,tailwind,vite,mongodb,vercel,aws,githubactions&theme=dark" alt="Next.js, React, Node.js, Bun, Tailwind, Vite, MongoDB, Vercel, AWS, GitHub Actions" />
+  </picture>
 </p>
 
-<img src="assets/h-matrix.svg" width="100%" alt="06 — Contribution Matrix" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/h-matrix.svg" />
+  <img src="assets/h-matrix.svg" width="100%" alt="06 — Contribution Matrix" />
+</picture>
 
-<img src="profile-3d-contrib/profile-customize.svg" width="100%" alt="Isometric 3D contribution matrix" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-obsidian-light.svg" />
+  <img src="profile-3d-contrib/profile-obsidian-dark.svg" width="100%" alt="Isometric 3D contribution matrix" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kukzze/Kukzze/output/github-contribution-grid-snake-dark.svg" />
@@ -228,4 +326,7 @@ stateDiagram-v2
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Kukzze/Kukzze/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<img src="assets/footer.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/footer.svg" />
+  <img src="assets/footer.svg" width="100%" alt="" />
+</picture>
