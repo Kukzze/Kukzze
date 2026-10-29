@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="formula-core — Zero-dependency spreadsheet formula engine">
+  <title>formula-core — Zero-dependency spreadsheet formula engine</title>
+  <defs>
+    <linearGradient id="pformulacoresvg-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b93ff" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#1a2033" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="pformulacoresvg-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10152a"/>
+      <stop offset="1" stop-color="#05070e"/>
+    </linearGradient>
+    <radialGradient id="pformulacoresvg-orb" cx=".85" cy="0" r=".9">
+      <stop offset="0" stop-color="#8b93ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#8b93ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pformulacoresvg-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="pformulacoresvg-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .9 } 100% { transform: scale(3.2); opacity: 0 } }
+    .sheen { animation: sheen 6s ease-in-out infinite; }
+    @keyframes sheen { 0%,100% { opacity: .25 } 50% { opacity: .7 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important } }
+  </style>
+  
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pformulacoresvg-glass)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pformulacoresvg-grid)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pformulacoresvg-orb)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="none" stroke="url(#pformulacoresvg-border)" stroke-width="1"/>
+  <text x="30" y="40" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.5" fill="#8b93ff">OPEN CORE · EXCEL MASTERS</text>
+  
+  <circle cx="482.865" cy="36" r="4" fill="#8b93ff" filter="url(#pformulacoresvg-glow)"/>
+  <circle cx="482.865" cy="36" r="4" fill="none" stroke="#8b93ff" class="pulse"/>
+  <text x="560" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#8b93ff">OPEN CORE</text>
+  <text x="30" y="80" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="-.6" fill="#e6e9f5">formula-core</text>
+  <text x="30" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#7d849b">Zero-dependency spreadsheet formula engine</text>
+  <line x1="30" y1="128" x2="560" y2="128" stroke="#1a2033"/>
+  <text x="30" y="152" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e6e9f5" fill-opacity=".86"><tspan fill="#8b93ff">▸ </tspan>Tokenizer → AST with operator-precedence parsing</text><text x="30" y="177" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e6e9f5" fill-opacity=".86"><tspan fill="#8b93ff">▸ </tspan>Math, logical, lookup, text &amp; array evaluation</text><text x="30" y="202" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#e6e9f5" fill-opacity=".86"><tspan fill="#8b93ff">▸ </tspan>Deterministic output, so no hallucinated math</text>
+  <g transform="translate(30,224)">
+      <rect width="85.1" height="22" rx="11" fill="#3178c6" fill-opacity=".12" stroke="#3178c6" stroke-opacity=".45"/>
+      <text x="42.55" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#3178c6">typescript</text>
+    </g><g transform="translate(123.1,224)">
+      <rect width="51.55" height="22" rx="11" fill="#8b93ff" fill-opacity=".12" stroke="#8b93ff" stroke-opacity=".45"/>
+      <text x="25.775" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b93ff">lexer</text>
+    </g><g transform="translate(182.64999999999998,224)">
+      <rect width="38.129999999999995" height="22" rx="11" fill="#00e5ff" fill-opacity=".12" stroke="#00e5ff" stroke-opacity=".45"/>
+      <text x="19.064999999999998" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#00e5ff">ast</text>
+    </g>
+</svg>
