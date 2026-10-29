@@ -1,0 +1,42 @@
+name: Refresh Live Telemetry
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/**"]
+
+jobs:
+  telemetry:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rebuild static cards
+        run: node .github/scripts/build-assets.mjs
+
+      - name: Generate telemetry SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          OWN_ORGS: ExcelMasters-in,ChicBuilder
+        run: node .github/scripts/telemetry.mjs assets/telemetry.svg
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets
+          if git commit -m "chore: refresh live telemetry"; then
+            git push
+          fi

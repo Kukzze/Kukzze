@@ -16,12 +16,35 @@
 
 <br/>
 
+<img src="assets/h-telemetry.svg" width="100%" alt="00 — Live Telemetry" />
+
+<img src="assets/telemetry.svg" width="100%" alt="Live GitHub telemetry: contributions, streak, commits, upstream PRs, language mix, 90-day activity and latest pull requests" />
+
 <img src="assets/h-ventures.svg" width="100%" alt="01 — Ventures" />
 
 <p align="center">
   <a href="https://www.excelmasters.in/"><img src="assets/v-excelmasters.svg" width="49.5%" alt="Excel Masters — deterministic AI spreadsheet intelligence" /></a>
   <a href="https://chic-builder.vercel.app/"><img src="assets/v-chicbuilder.svg" width="49.5%" alt="Chic Builder — AI workouts and ranked fitness PWA" /></a>
 </p>
+
+<details>
+<summary><b>⟢ Architecture: how Excel Masters keeps AI math deterministic</b> <sub>(click to expand)</sub></summary>
+<br/>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'background':'#05070e','primaryColor':'#0c101d','primaryTextColor':'#e6e9f5','primaryBorderColor':'#5e6ad2','lineColor':'#00e5ff','secondaryColor':'#10152a','tertiaryColor':'#05070e'}}}%%
+flowchart LR
+    U([User question]) --> L[LLM<br/>intent + explanation]
+    L -->|formula, not answer| T
+    subgraph FC [formula-core · zero-dep]
+        T[Tokenizer] --> P[Parser<br/>operator precedence] --> A[(AST)] --> E[Evaluator]
+    end
+    G[(In-browser grid)] -- cell refs --> E
+    E -- exact result --> R([Answer on the grid])
+    A --> S[SheetSense™<br/>circular refs · lint] --> R
+```
+
+</details>
 
 <img src="assets/h-systems.svg" width="100%" alt="02 — Live Production Systems" />
 
@@ -85,6 +108,33 @@
 <img src="assets/h-packages.svg" width="100%" alt="03 — Open Core & Packages" />
 
 <a href="https://github.com/Kukzze/mongo-next-sentinel"><img src="assets/p-sentinel.svg" width="100%" alt="mongo-next-sentinel v1.1.0 — MongoDB connection-pool leak detector for Next.js" /></a>
+
+<details>
+<summary><b>⟢ Architecture: mongo-next-sentinel event pipeline & circuit breaker</b> <sub>(click to expand)</sub></summary>
+<br/>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'background':'#05070e','primaryColor':'#0c101d','primaryTextColor':'#e6e9f5','primaryBorderColor':'#00ED64','lineColor':'#5e6ad2','secondaryColor':'#10152a','tertiaryColor':'#05070e'}}}%%
+flowchart LR
+    M[(MongoClient pool)] -- CMAP events --> PE[poolEvents<br/>checkOut · checkIn · created · closed]
+    PE --> ST[stats + snapshot<br/>leak detection]
+    ST --> PR["/metrics<br/>Prometheus"] --> GF([Grafana])
+    ST --> H[health probe]
+    SC[safeClient] --> CB{circuit breaker} --> M
+```
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'background':'#05070e','primaryColor':'#0c101d','primaryTextColor':'#e6e9f5','primaryBorderColor':'#00ED64','lineColor':'#5e6ad2'}}}%%
+stateDiagram-v2
+    direction LR
+    [*] --> CLOSED
+    CLOSED --> OPEN: failures ≥ threshold (5)
+    OPEN --> HALF_OPEN: recovery timeout (30s)
+    HALF_OPEN --> CLOSED: probe succeeds
+    HALF_OPEN --> OPEN: probe fails
+```
+
+</details>
 
 <p align="center">
   <a href="https://github.com/ExcelMasters-in/formula-core"><img src="assets/p-formulacore.svg" width="49.5%" alt="formula-core — zero-dependency spreadsheet formula engine" /></a>
