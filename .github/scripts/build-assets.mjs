@@ -2,6 +2,10 @@
 // Usage: node .github/scripts/build-assets.mjs [outDir=assets]   (light variants go to <outDir>/light)
 import { C, setOut, setTheme, hero, header, programs, card, mergedCard, footer } from "./kit.mjs";
 
+// Total capital secured across ventures (grants, ecosystem awards, client payouts).
+// Bump this one line when it changes; the hero HUD and README stat strip both read it.
+const CAPITAL_SECURED = "$17,030 USD";
+
 const build = () => {
 const P = C.violet, G = C.mongo, D = C.dim, T = C.text, Y = C.cyan;
 
@@ -19,6 +23,9 @@ hero({
     [["● ", G], ["chic-builder.app      ", T], ["active (running)   ", G], ["1rm kinematics · progressive overload", D]],
     [["● ", P], ["mongo-next-sentinel   ", T], ["v1.1.0 released    ", P], ["pool leak detector · circuit breaker", D]],
     [["● ", P], ["formula-core          ", T], ["open core          ", P], ["zero-dep tokenizer → ast → evaluator", D]],
+    [[" ", D]],
+    [["❯ ", G], ["funding status ", T], ["--capital --grants", D]],
+    [["● ", G], [CAPITAL_SECURED.padEnd(22), G], ["capital secured    ", T], ["grants · ecosystem awards · payouts", D]],
     [[" ", D]],
     [["❯ ", G], ["cat ", T], ["/etc/compiler.targets", D]],
     [["typescript", C.ts], [" → esm+cjs   ", D], ["java 17", C.java], [" → runelite   ", D], ["rust", C.rust], [" → biome   ", D], ["mdx", Y], [" → mdn", D]],
@@ -40,6 +47,12 @@ programs([
   ["NVIDIA Inception", C.nvidia], ["MongoDB for Startups", C.mongo], ["YC Startup School", C.yc],
   ["W3C Open Source CG", C.w3c], ["Linux Foundation · LFX", C.lf],
 ]);
+
+programs([
+  [`Capital secured · ${CAPITAL_SECURED}`, C.mongo],
+  ["Backing · NVIDIA Inception · MongoDB for Startups", C.indigo],
+  ["Runway · self-sustaining", C.cyan],
+], "capital.svg");
 
 card({
   file: "v-excelmasters.svg", accent: C.mongo, accent2: C.indigo, kicker: "VENTURE · 01", title: "Excel Masters",

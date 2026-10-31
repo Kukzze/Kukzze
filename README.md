@@ -6,6 +6,11 @@
 </a>
 
 <picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/capital.svg" />
+  <img src="assets/capital.svg" width="100%" alt="Capital secured across ventures · backed by NVIDIA Inception and MongoDB for Startups · self-sustaining runway" />
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/light/programs.svg" />
   <img src="assets/programs.svg" width="100%" alt="NVIDIA Inception · MongoDB for Startups · YC Startup School · W3C Open Source CG · Linux Foundation LFX" />
 </picture>
