@@ -8,6 +8,7 @@ const CAPITAL_SECURED_USD = Number(process.env.CAPITAL_SECURED_USD || 17030); //
 const AWS_CREDITS_USD = Number(process.env.AWS_CREDITS_USD || 10000);          // AWS compute credits granted
 const AWS_CREDITS_USED = process.env.AWS_CREDITS_USED ? Number(process.env.AWS_CREDITS_USED) : null;
 const AWS_SYNCED = process.env.AWS_CREDITS_SYNCED || null;
+const AWS_CREDITS_SOURCE = "NVIDIA Inception";                                    // program the AWS credits came through
 const CAPITAL_SECURED = `${usd(CAPITAL_SECURED_USD)} USD`;
 
 const build = () => {
@@ -52,7 +53,7 @@ programs([
   ["W3C Open Source CG", C.w3c], ["Linux Foundation · LFX", C.lf],
 ]);
 
-treasury({ capital: CAPITAL_SECURED_USD, awsGranted: AWS_CREDITS_USD, awsUsed: AWS_CREDITS_USED, awsSynced: AWS_SYNCED });
+treasury({ capital: CAPITAL_SECURED_USD, awsGranted: AWS_CREDITS_USD, awsUsed: AWS_CREDITS_USED, awsSynced: AWS_SYNCED, awsSource: AWS_CREDITS_SOURCE });
 
 card({
   file: "v-excelmasters.svg", accent: C.mongo, accent2: C.indigo, kicker: "VENTURE · 01", title: "Excel Masters",

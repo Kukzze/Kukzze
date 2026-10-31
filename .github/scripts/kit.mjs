@@ -236,7 +236,7 @@ export const footer = (label, colors = [C.mongo, C.indigo, C.cyan], file = "foot
 // ─── Treasury card: animated vault + capital + AWS credits ───────────────
 export const usd = (n) => "$" + Math.round(n).toLocaleString("en-US");
 
-export const treasury = ({ capital, awsGranted, awsUsed = null, awsSynced = null, file = "capital.svg" }) => {
+export const treasury = ({ capital, awsGranted, awsUsed = null, awsSynced = null, awsSource = null, file = "capital.svg" }) => {
   const W = 1200, H = 180, id = "t";
   const dark = C.bg === THEMES.dark.bg;
   const aws = dark ? "#FF9900" : "#c25e00";
@@ -312,7 +312,7 @@ export const treasury = ({ capital, awsGranted, awsUsed = null, awsSynced = null
 
   <rect x="740" y="24" width="430" height="132" rx="12" fill="${C.panel}" stroke="${C.line}"/>
   <rect x="740" y="38" width="3" height="104" rx="1.5" fill="${aws}"/>
-  <text x="764" y="52" font-family="${MONO}" font-size="11.5" letter-spacing="1.5" fill="${aws}">AWS CLOUD CREDITS</text>
+  <text x="764" y="52" font-family="${MONO}" font-size="11.5" letter-spacing="1.5" fill="${aws}">${esc(awsSource ? `AWS CREDITS · VIA ${awsSource.toUpperCase()}` : "AWS CLOUD CREDITS")}</text>
   <circle cx="1100" cy="48" r="3.5" fill="${C.mongo}"/><circle cx="1100" cy="48" r="3.5" fill="none" stroke="${C.mongo}" class="pulse"/>
   <text x="1146" y="52" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.mongo}">ACTIVE</text>
   <text x="764" y="94" font-family="${SANS}" font-size="32" font-weight="800" letter-spacing="-.8" fill="${C.title}">${esc(usd(remaining))}<tspan font-size="15" font-weight="500" letter-spacing="0" fill="${C.dim}"> USD ${live ? "remaining" : "granted"}</tspan></text>
