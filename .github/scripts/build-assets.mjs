@@ -1,10 +1,14 @@
 // Content for the Kukzze profile cards. Components live in kit.mjs.
 // Usage: node .github/scripts/build-assets.mjs [outDir=assets]   (light variants go to <outDir>/light)
-import { C, setOut, setTheme, hero, header, programs, card, mergedCard, footer } from "./kit.mjs";
+import { C, setOut, setTheme, hero, header, programs, card, mergedCard, footer, treasury, usd } from "./kit.mjs";
 
-// Total capital secured across ventures (grants, ecosystem awards, client payouts).
-// Bump this one line when it changes; the hero HUD and README stat strip both read it.
-const CAPITAL_SECURED = "$17,030 USD";
+// Treasury figures in USD: bump these when they change. The hero HUD and treasury card both read them.
+// CI can override via env; AWS_CREDITS_USED is set by telemetry.yml when AWS secrets are configured.
+const CAPITAL_SECURED_USD = Number(process.env.CAPITAL_SECURED_USD || 17030); // grants, ecosystem awards, client payouts
+const AWS_CREDITS_USD = Number(process.env.AWS_CREDITS_USD || 10000);          // AWS compute credits granted
+const AWS_CREDITS_USED = process.env.AWS_CREDITS_USED ? Number(process.env.AWS_CREDITS_USED) : null;
+const AWS_SYNCED = process.env.AWS_CREDITS_SYNCED || null;
+const CAPITAL_SECURED = `${usd(CAPITAL_SECURED_USD)} USD`;
 
 const build = () => {
 const P = C.violet, G = C.mongo, D = C.dim, T = C.text, Y = C.cyan;
@@ -48,11 +52,7 @@ programs([
   ["W3C Open Source CG", C.w3c], ["Linux Foundation · LFX", C.lf],
 ]);
 
-programs([
-  [`Capital secured · ${CAPITAL_SECURED}`, C.mongo],
-  ["Backing · NVIDIA Inception · MongoDB for Startups", C.indigo],
-  ["Runway · self-sustaining", C.cyan],
-], "capital.svg");
+treasury({ capital: CAPITAL_SECURED_USD, awsGranted: AWS_CREDITS_USD, awsUsed: AWS_CREDITS_USED, awsSynced: AWS_SYNCED });
 
 card({
   file: "v-excelmasters.svg", accent: C.mongo, accent2: C.indigo, kicker: "VENTURE · 01", title: "Excel Masters",

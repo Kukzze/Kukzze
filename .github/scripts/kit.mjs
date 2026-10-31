@@ -232,3 +232,92 @@ export const footer = (label, colors = [C.mongo, C.indigo, C.cyan], file = "foot
   <text x="${W / 2}" y="108" text-anchor="middle" font-family="${MONO}" font-size="12" fill="${C.faint}" letter-spacing="3">${esc(label)}</text>`;
   write(file, svg(W, H, content, "Animated waveform footer"));
 };
+
+// ─── Treasury card: animated vault + capital + AWS credits ───────────────
+export const usd = (n) => "$" + Math.round(n).toLocaleString("en-US");
+
+export const treasury = ({ capital, awsGranted, awsUsed = null, awsSynced = null, file = "capital.svg" }) => {
+  const W = 1200, H = 180, id = "t";
+  const dark = C.bg === THEMES.dark.bg;
+  const aws = dark ? "#FF9900" : "#c25e00";
+  const gold = dark ? "#f5c542" : "#b8860b";
+  const live = awsUsed !== null;
+  const remaining = live ? Math.max(0, awsGranted - awsUsed) : awsGranted;
+  const frac = awsGranted > 0 ? remaining / awsGranted : 0;
+
+  // Falling coins: the outer group drops into the slot, the inner group spins.
+  const coin = (i) => `
+  <g class="drop" style="animation-delay:${(i * 0.9).toFixed(1)}s">
+    <g class="spin">
+      <circle cx="104" cy="46" r="9" fill="${gold}" stroke="${C.title}" stroke-opacity=".35"/>
+      <text x="104" y="50.5" text-anchor="middle" font-family="${SANS}" font-size="11" font-weight="800" fill="${C.bg}">$</text>
+    </g>
+  </g>`;
+  const spark = (x, y, d) => `<path class="tw" style="animation-delay:${d}s" d="M${x} ${y - 5}L${x + 1.4} ${y - 1.4}L${x + 5} ${y}L${x + 1.4} ${y + 1.4}L${x} ${y + 5}L${x - 1.4} ${y + 1.4}L${x - 5} ${y}L${x - 1.4} ${y - 1.4}Z" fill="${gold}"/>`;
+  const awsLine = live
+    ? `${usd(awsUsed)} of ${usd(awsGranted)} used · live via cost explorer${awsSynced ? ` · ${awsSynced}` : ""}`
+    : "compute credits · cloud infrastructure grant";
+
+  const content = `${defs(id, C.mongo, C.cyan)}
+  <defs>
+    <linearGradient id="t-amt" gradientUnits="userSpaceOnUse" x1="236" y1="0" x2="700" y2="0">
+      <stop offset="0" stop-color="${C.mongo}"/><stop offset=".42" stop-color="${C.cyan}"/>
+      <stop offset=".5" stop-color="${C.title}"/><stop offset=".58" stop-color="${C.cyan}"/><stop offset="1" stop-color="${C.mongo}"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-520 0;520 0" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="t-pig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.mongo}"/><stop offset="1" stop-color="${C.cyan}"/></linearGradient>
+    <linearGradient id="t-bar" x1="0" x2="1"><stop offset="0" stop-color="${aws}"/><stop offset="1" stop-color="${gold}"/></linearGradient>
+    <filter id="vault-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <style>
+    .drop { opacity: 0; animation: drop 2.7s cubic-bezier(.5,0,.75,0) infinite; }
+    @keyframes drop { 0% { transform: translateY(-34px); opacity: 0 } 15% { opacity: 1 } 80% { transform: translateY(14px); opacity: 1 } 92%, 100% { transform: translateY(18px); opacity: 0 } }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin .9s linear infinite; }
+    @keyframes spin { 0%, 100% { transform: scaleX(1) } 50% { transform: scaleX(.25) } }
+    .pig { transform-box: fill-box; transform-origin: 50% 100%; animation: bob .9s ease-in-out infinite; animation-delay: .1s; }
+    @keyframes bob { 0%, 60%, 100% { transform: scale(1) } 75% { transform: scale(1.03, .97) } 88% { transform: scale(.99, 1.012) } }
+    .aura { animation: aura .9s ease-in-out infinite; }
+    @keyframes aura { 0%, 100% { opacity: .2 } 75% { opacity: .42 } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: tw 1.8s ease-in-out infinite; opacity: 0; }
+    @keyframes tw { 0%, 100% { opacity: 0; transform: scale(.4) } 50% { opacity: 1; transform: scale(1) } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .9 } 100% { transform: scale(3.2); opacity: 0 } }
+    .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.4s .3s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } .drop, .tw { opacity: 0 !important } }
+  </style>
+  ${frame(id, W, H, 16)}
+
+  <circle class="aura" cx="104" cy="104" r="58" fill="${C.mongo}" fill-opacity="${dark ? 1 : 0.45}" filter="url(#vault-glow)"/>
+  ${[0, 1, 2].map(coin).join("")}
+  <g class="pig">
+    <path d="M51 104 q-11 -3 -8 -12 q3 -7 9 -2" fill="none" stroke="url(#t-pig)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M124 76 L135 60 L142 80 Z" fill="${C.panel}" stroke="url(#t-pig)" stroke-width="2.2" stroke-linejoin="round"/>
+    ${[70, 88, 116, 134].map((x) => `<rect x="${x}" y="128" width="11" height="17" rx="3.5" fill="${C.panel}" stroke="url(#t-pig)" stroke-width="2"/>`).join("")}
+    <ellipse cx="103" cy="106" rx="54" ry="36" fill="${C.panel}" stroke="url(#t-pig)" stroke-width="2.4"/>
+    <rect x="151" y="94" width="17" height="22" rx="7" fill="${C.panel}" stroke="url(#t-pig)" stroke-width="2.2"/>
+    <circle cx="157.5" cy="102.5" r="1.8" fill="${C.cyan}"/><circle cx="157.5" cy="108.5" r="1.8" fill="${C.cyan}"/>
+    <circle cx="139" cy="94" r="3" fill="${C.title}"/>
+    <rect x="90" y="69" width="28" height="4.5" rx="2.2" fill="${C.title}" fill-opacity=".75"/>
+    <path d="M70 118 q20 12 46 0" fill="none" stroke="${C.mongo}" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  ${spark(76, 52, 0.2)}${spark(140, 44, 1.1)}${spark(172, 76, 0.6)}
+
+  <line x1="214" y1="30" x2="214" y2="${H - 30}" stroke="${C.line}"/>
+  <circle cx="242" cy="40" r="4" fill="${C.mongo}"/><circle cx="242" cy="40" r="4" fill="none" stroke="${C.mongo}" class="pulse"/>
+  <text x="256" y="44" font-family="${MONO}" font-size="11.5" letter-spacing="1.5" fill="${C.cyan}">LIVE TREASURY · CAPITAL &amp; GRANTS SECURED</text>
+  <text x="236" y="104" font-family="${MONO}" font-size="50" font-weight="800" letter-spacing="-2" fill="url(#t-amt)">${esc(usd(capital))}<tspan font-size="20" font-weight="600" letter-spacing="1" fill="${C.dim}"> USD</tspan></text>
+  <text x="238" y="134" font-family="${SANS}" font-size="14.5" fill="${C.dim}">venture grants · client payouts · ecosystem capital</text>
+  <text x="238" y="160" font-family="${MONO}" font-size="12" fill="${C.faint}">Σ combined with compute credits <tspan fill="${C.text}">${esc(usd(capital + awsGranted))} USD</tspan></text>
+
+  <rect x="740" y="24" width="430" height="132" rx="12" fill="${C.panel}" stroke="${C.line}"/>
+  <rect x="740" y="38" width="3" height="104" rx="1.5" fill="${aws}"/>
+  <text x="764" y="52" font-family="${MONO}" font-size="11.5" letter-spacing="1.5" fill="${aws}">AWS CLOUD CREDITS</text>
+  <circle cx="1100" cy="48" r="3.5" fill="${C.mongo}"/><circle cx="1100" cy="48" r="3.5" fill="none" stroke="${C.mongo}" class="pulse"/>
+  <text x="1146" y="52" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.mongo}">ACTIVE</text>
+  <text x="764" y="94" font-family="${SANS}" font-size="32" font-weight="800" letter-spacing="-.8" fill="${C.title}">${esc(usd(remaining))}<tspan font-size="15" font-weight="500" letter-spacing="0" fill="${C.dim}"> USD ${live ? "remaining" : "granted"}</tspan></text>
+  <rect x="764" y="110" width="382" height="8" rx="4" fill="${C.line}"/>
+  <g class="grow"><rect x="764" y="110" width="${Math.max(8, 382 * frac).toFixed(1)}" height="8" rx="4" fill="url(#t-bar)"/></g>
+  <text x="764" y="140" font-family="${MONO}" font-size="11" fill="${C.dim}">${esc(awsLine)}</text>`;
+  write(file, svg(W, H, content, `Treasury: ${usd(capital)} USD capital secured; ${usd(remaining)} USD AWS credits ${live ? "remaining" : "granted"}`));
+};

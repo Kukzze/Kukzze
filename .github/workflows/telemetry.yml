@@ -19,6 +19,9 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      # Live AWS credit usage is optional: it turns on once AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY secrets exist.
+      HAS_AWS: ${{ secrets.AWS_ACCESS_KEY_ID != '' }}
 
     steps:
       - uses: actions/checkout@v5
@@ -26,6 +29,31 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Configure AWS credentials
+        if: env.HAS_AWS == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      # Cost Explorer reports credits applied as negative cost; sum them since the grant date.
+      # Any failure falls back to the static AWS_CREDITS_USD in build-assets.mjs.
+      - name: Fetch AWS credits used
+        if: env.HAS_AWS == 'true'
+        continue-on-error: true
+        run: |
+          since="${{ vars.AWS_CREDITS_SINCE }}"
+          [ -n "$since" ] || since=$(date -u -d '-12 months' +%Y-%m-01)
+          until=$(date -u -d tomorrow +%Y-%m-%d)
+          used=$(aws ce get-cost-and-usage \
+            --time-period "Start=$since,End=$until" --granularity MONTHLY --metrics UnblendedCost \
+            --filter '{"Dimensions":{"Key":"RECORD_TYPE","Values":["Credit"]}}' \
+            --query 'ResultsByTime[].Total.UnblendedCost.Amount' --output text \
+            | tr '\t' '\n' | awk '{ s += $1 } END { printf "%.2f", (s < 0 ? -s : s) }')
+          echo "AWS_CREDITS_USED=$used" >> "$GITHUB_ENV"
+          echo "AWS_CREDITS_SYNCED=$(date -u +'%b %-d')" >> "$GITHUB_ENV"
 
       - name: Rebuild static cards
         run: node .github/scripts/build-assets.mjs
