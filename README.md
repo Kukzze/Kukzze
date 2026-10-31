@@ -6,8 +6,8 @@
 </a>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/light/capital.svg" />
-  <img src="assets/capital.svg" width="100%" alt="Live treasury: capital and grants secured across ventures, plus AWS cloud credits" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/capital.svg?v=2" />
+  <img src="assets/capital.svg?v=2" width="100%" alt="Live treasury: capital and grants secured across ventures, plus AWS cloud credits" />
 </picture>
 
 <picture>
