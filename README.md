@@ -229,18 +229,18 @@ stateDiagram-v2
 </picture>
 </a>
 
+<a href="https://github.com/PaperMC/Paper/pull/14430">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/light/hof-paper-2.svg" />
+  <img src="assets/hof-paper-2.svg" width="100%" alt="Merged: PaperMC/Paper #14430 — Fix RedundantNullabilityCheck for nested types" />
+</picture>
+</a>
+
 <table width="100%">
   <thead>
     <tr><th></th><th align="left">Project</th><th align="left">Contribution</th><th align="left">Impact</th><th align="left">Status</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td><img src="https://avatars.githubusercontent.com/u/7608950?s=64" width="28" alt="PaperMC" /></td>
-      <td><a href="https://github.com/PaperMC/Paper/pull/14430"><b>PaperMC/Paper</b> #14430</a></td>
-      <td>Fix <code>RedundantNullabilityCheck</code> for nested types</td>
-      <td>Stops false positives on nested-type nullability annotations</td>
-      <td><img src="https://img.shields.io/github/pulls/detail/state/PaperMC/Paper/14430?style=flat-square&label=&labelColor=0c101d" alt="status" /></td>
-    </tr>
     <tr>
       <td><img src="https://avatars.githubusercontent.com/u/140182603?s=64" width="28" alt="Biome" /></td>
       <td><a href="https://github.com/biomejs/biome/pull/12704"><b>biomejs/biome</b> #12704</a></td>
@@ -270,6 +270,13 @@ stateDiagram-v2
       <td><img src="https://img.shields.io/github/pulls/detail/state/DefinitelyTyped/DefinitelyTyped/75855?style=flat-square&label=&labelColor=0c101d" alt="status" /></td>
     </tr>
     <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/3637556?s=64" width="28" alt="DefinitelyTyped" /></td>
+      <td><a href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75886"><b>DefinitelyTyped</b> #75886</a></td>
+      <td><code>wordpress__block-editor</code>: allow <code>false</code> for <code>renderAppender</code></td>
+      <td>Matches Gutenberg runtime for <code>InnerBlocks</code> and <code>BlockList</code></td>
+      <td><img src="https://img.shields.io/github/pulls/detail/state/DefinitelyTyped/DefinitelyTyped/75886?style=flat-square&label=&labelColor=0c101d" alt="status" /></td>
+    </tr>
+    <tr>
       <td><img src="https://avatars.githubusercontent.com/u/103134607?s=64" width="28" alt="JDA" /></td>
       <td><a href="https://github.com/discord-jda/JDA/pull/3162"><b>discord-jda/JDA</b> #3162</a></td>
       <td>Add <code>getChannel()</code> to <code>MessageCreateAction</code></td>
@@ -282,6 +289,13 @@ stateDiagram-v2
       <td>Skill calculator: Blood Moon Rises methods</td>
       <td>Open-source OSRS client used by millions of players</td>
       <td><img src="https://img.shields.io/github/pulls/detail/state/runelite/runelite/20613?style=flat-square&label=&labelColor=0c101d" alt="status" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/13814776?s=64" width="28" alt="RuneLite" /></td>
+      <td><a href="https://github.com/runelite/runelite/pull/20628"><b>runelite/runelite</b> #20628</a></td>
+      <td>Clues: shorten Falo flail requirement text</td>
+      <td>Requirement now fits the clue infobox</td>
+      <td><img src="https://img.shields.io/github/pulls/detail/state/runelite/runelite/20628?style=flat-square&label=&labelColor=0c101d" alt="status" /></td>
     </tr>
     <tr>
       <td><img src="https://avatars.githubusercontent.com/u/29153234?s=64" width="28" alt="Quest Helper" /></td>
@@ -321,9 +335,9 @@ stateDiagram-v2
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kukzze/Kukzze/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kukzze/Kukzze/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Kukzze/Kukzze/output/github-contribution-grid-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kukzze/Kukzze/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kukzze/Kukzze/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man eating the contribution graph" src="https://raw.githubusercontent.com/Kukzze/Kukzze/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 <picture>

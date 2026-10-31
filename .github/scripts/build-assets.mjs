@@ -1,8 +1,8 @@
 // Content for the Kukzze profile cards. Components live in kit.mjs.
-// Usage: node .github/scripts/build-assets.mjs [outDir=assets]
-import { C, setOut, hero, header, programs, card, mergedCard, footer } from "./kit.mjs";
+// Usage: node .github/scripts/build-assets.mjs [outDir=assets]   (light variants go to <outDir>/light)
+import { C, setOut, setTheme, hero, header, programs, card, mergedCard, footer } from "./kit.mjs";
 
-setOut(process.argv[2] ?? "assets");
+const build = () => {
 const P = C.violet, G = C.mongo, D = C.dim, T = C.text, Y = C.cyan;
 
 hero({
@@ -96,6 +96,24 @@ mergedCard({
   additions: 28, deletions: 0, files: 2,
 });
 
-footer("KUKZZE · END OF TRANSMISSION");
+mergedCard({
+  file: "hof-paper-2.svg", repo: "PaperMC/Paper", number: 14430, mergedOn: "2026-10-30", commit: "174574d",
+  title: "Fix RedundantNullabilityCheck for nested types",
+  description: [
+    "Redundant @NullMarked on nested classes, records and enums went unflagged when an enclosing type was already marked.",
+    "The check now walks enclosing type declarations, backed by new unit tests and test data.",
+  ],
+  chips: [["java", C.java], ["checkstyle", C.violet], ["jspecify", C.cyan]],
+  additions: 65, deletions: 2, files: 3,
+});
 
-console.log("assets written");
+footer("KUKZZE · END OF TRANSMISSION");
+};
+
+const root = process.argv[2] ?? "assets";
+for (const [theme, dir] of [["dark", root], ["light", `${root}/light`]]) {
+  setTheme(theme);
+  setOut(dir);
+  build();
+}
+console.log("assets written (dark + light)");

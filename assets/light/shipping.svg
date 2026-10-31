@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="424" viewBox="0 0 1200 424" role="img" aria-label="Latest commits and releases by Kukzze">
+  <title>Latest commits and releases by Kukzze</title>
+  <defs>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f5bd5" stop-opacity=".9"/><stop offset=".5" stop-color="#d5dbe7" stop-opacity=".6"/><stop offset="1" stop-color="#0e7490" stop-opacity=".8"/></linearGradient>
+    <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1f8"/></linearGradient>
+    <radialGradient id="orb" cx=".15" cy="0" r=".8"><stop offset="0" stop-color="#4f5bd5" stop-opacity=".22"/><stop offset="1" stop-color="#4f5bd5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e7490" stop-opacity=".35"/><stop offset="1" stop-color="#4f5bd5" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#4f5bd5"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+    <pattern id="gr" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0b1020" stroke-opacity=".035"/></pattern>
+  </defs>
+  <style>
+    .f { opacity: 0; animation: in .5s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+    .draw { stroke-dasharray: 3000; stroke-dashoffset: 3000; animation: draw 2.2s .5s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.2s .4s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .9 } 100% { transform: scale(3.2); opacity: 0 } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important } }
+  </style>
+  <rect x=".5" y=".5" width="1199" height="423" rx="14" fill="url(#gl)"/>
+  <rect x=".5" y=".5" width="1199" height="423" rx="14" fill="url(#gr)"/>
+  <rect x=".5" y=".5" width="1199" height="423" rx="14" fill="url(#orb)"/>
+  <rect x=".5" y=".5" width="1199" height="423" rx="14" fill="none" stroke="url(#bd)"/>
+  <circle cx="36" cy="35" r="4" fill="#00994d"/><circle cx="36" cy="35" r="4" fill="none" stroke="#00994d" class="pulse"/>
+  <text x="50" y="39" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.5" fill="#0e7490">SHIPPING LOG · @KUKZZE</text>
+  <text x="1170" y="39" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8a93a6">synced 2026-10-31 13:59 UTC · github graphql</text>
+  <text x="30" y="80" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="14"><tspan fill="#00994d">❯ </tspan><tspan fill="#141a2e">git log </tspan><tspan fill="#4b5468">--all-repos --author=kukzze -n 8</tspan></text><g class="f" style="animation-delay:0.30s">
+    <text x="30" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">055f849</text>
+    <text x="112" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 29</text>
+    <circle cx="186" cy="103.5" r="4.5" fill="#f1e05a"/>
+    <text x="198" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">chic-bot-service</text>
+    <text x="396" y="108" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat: polish every bot message, add branded GIFs and panel refresh</text>
+  </g><g class="f" style="animation-delay:0.42s">
+    <text x="30" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">0bc0aa3</text>
+    <text x="112" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 29</text>
+    <circle cx="186" cy="133.5" r="4.5" fill="#f1e05a"/>
+    <text x="198" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">chic-bot-service</text>
+    <text x="396" y="138" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">security: load bot token from server-side .env only</text>
+  </g><g class="f" style="animation-delay:0.54s">
+    <text x="30" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">ac41903</text>
+    <text x="112" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="163.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="168" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">ci(workflow): fix invalid secrets context evaluation in publish workflow</text>
+  </g><g class="f" style="animation-delay:0.66s">
+    <text x="30" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">ae0fa47</text>
+    <text x="112" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="193.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="198" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">docs(readme): bump badge to v1.1.0 and add Prometheus &amp; Circuit Break…</text>
+  </g><g class="f" style="animation-delay:0.78s">
+    <text x="30" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">b5bb6c9</text>
+    <text x="112" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="223.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="228" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">release: v1.1.0 with circuit breaker, prometheus, and resilience toolkit</text>
+  </g><g class="f" style="animation-delay:0.90s">
+    <text x="30" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">2c2d4fa</text>
+    <text x="112" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="253.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="258" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">benchmarks(concurrency): add rapid connection cycling benchmark</text>
+  </g><g class="f" style="animation-delay:1.02s">
+    <text x="30" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">520d5f1</text>
+    <text x="112" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="283.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="288" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">examples(bun): add standalone Bun native HTTP server example</text>
+  </g><g class="f" style="animation-delay:1.14s">
+    <text x="30" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">614700a</text>
+    <text x="112" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 28</text>
+    <circle cx="186" cy="313.5" r="4.5" fill="#3178c6"/>
+    <text x="198" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
+    <text x="396" y="318" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">examples(astro): add Astro SSR API endpoint example</text>
+  </g><line x1="30" y1="364" x2="1170" y2="364" stroke="#d5dbe7" stroke-dasharray="2 6"/>
+  <text x="30" y="390" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.5" fill="#8a93a6">LATEST RELEASES</text><g transform="translate(180,375)"><rect width="214.4" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="107.2" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">mongo-next-sentinel v1.1.0</text></g><text class="cur" x="1170" y="390" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="14" fill="#141a2e">▍</text>
+</svg>

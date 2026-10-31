@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Compiler Targets &amp; Stack">
+  <title>Compiler Targets &amp; Stack</title>
+  <linearGradient id="s-line" x1="0" x2="1"><stop offset="0" stop-color="#4f5bd5"/><stop offset=".4" stop-color="#0e7490" stop-opacity=".5"/><stop offset="1" stop-color="#0e7490" stop-opacity="0"/></linearGradient>
+  <style>.sweep{animation:sweep 5s ease-in-out infinite}@keyframes sweep{0%{transform:translateX(-200px);opacity:0}30%{opacity:1}100%{transform:translateX(1200px);opacity:0}}@media (prefers-reduced-motion: reduce){.sweep{animation:none;opacity:0}}</style>
+  <text x="0" y="30" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#4f5bd5" letter-spacing="2">// 05</text>
+  <text x="61.65" y="31" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" fill="#141a2e" letter-spacing="-.3">Compiler Targets &amp; Stack</text>
+  <text x="1200" y="30" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#4b5468">what i ship with</text>
+  <rect x="0" y="50" width="1200" height="1.5" fill="url(#s-line)"/>
+  <rect class="sweep" x="0" y="49" width="160" height="3.5" rx="2" fill="#0e7490" opacity=".8"/>
+</svg>

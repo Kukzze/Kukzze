@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="Astrarium — Player progression astrolabe &amp; readiness auditor">
+  <title>Astrarium — Player progression astrolabe &amp; readiness auditor</title>
+  <defs>
+    <linearGradient id="pastrariumsvg-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b85c00" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#d5dbe7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#5b63e6" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="pastrariumsvg-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef1f8"/>
+    </linearGradient>
+    <radialGradient id="pastrariumsvg-orb" cx=".85" cy="0" r=".9">
+      <stop offset="0" stop-color="#b85c00" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#b85c00" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pastrariumsvg-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#0b1020" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="pastrariumsvg-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .9 } 100% { transform: scale(3.2); opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important } }
+  </style>
+  
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pastrariumsvg-glass)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pastrariumsvg-grid)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="url(#pastrariumsvg-orb)"/>
+  <rect x=".5" y=".5" width="589" height="269" rx="14" fill="none" stroke="url(#pastrariumsvg-border)" stroke-width="1"/>
+  <text x="30" y="40" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.5" fill="#b85c00">RUNELITE PLUGIN</text>
+  
+  <circle cx="475.85" cy="36" r="4" fill="#b85c00" filter="url(#pastrariumsvg-glow)"/>
+  <circle cx="475.85" cy="36" r="4" fill="none" stroke="#b85c00" class="pulse"/>
+  <text x="560" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#b85c00">PLUGIN HUB</text>
+  <text x="30" y="80" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="-.6" fill="#141a2e">Astrarium</text>
+  <text x="30" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#4b5468">Player progression astrolabe &amp; readiness auditor</text>
+  <line x1="30" y1="128" x2="560" y2="128" stroke="#d5dbe7"/>
+  <text x="30" y="152" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#b85c00">▸ </tspan>Combat calculators &amp; readiness checks</text><text x="30" y="177" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#b85c00">▸ </tspan>Achievement diary tracking</text><text x="30" y="202" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#b85c00">▸ </tspan>Gear audits against your goals</text>
+  <g transform="translate(30,224)">
+      <rect width="64.97" height="22" rx="11" fill="#b85c00" fill-opacity=".12" stroke="#b85c00" stroke-opacity=".45"/>
+      <text x="32.485" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#b85c00">java 17</text>
+    </g><g transform="translate(102.97,224)">
+      <rect width="71.68" height="22" rx="11" fill="#d9480f" fill-opacity=".12" stroke="#d9480f" stroke-opacity=".45"/>
+      <text x="35.84" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#d9480f">runelite</text>
+    </g><g transform="translate(182.65,224)">
+      <rect width="58.26" height="22" rx="11" fill="#4b5468" fill-opacity=".12" stroke="#4b5468" stroke-opacity=".45"/>
+      <text x="29.13" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#4b5468">gradle</text>
+    </g>
+</svg>

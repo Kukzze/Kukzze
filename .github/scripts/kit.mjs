@@ -6,11 +6,23 @@ import { join } from "node:path";
 let out = "assets";
 export const setOut = (dir) => { out = dir; mkdirSync(out, { recursive: true }); };
 
-export const C = {
-  bg: "#05070e", panel: "#0c101d", line: "#1a2033", text: "#e6e9f5", dim: "#7d849b", faint: "#4a5068",
-  indigo: "#5e6ad2", violet: "#8b93ff", cyan: "#00e5ff", mongo: "#00ED64", nvidia: "#76B900", yc: "#FB651E",
-  w3c: "#3d8fd6", lf: "#4f7cff", java: "#f89820", ts: "#3178c6", rust: "#dea584",
+export const THEMES = {
+  dark: {
+    bg: "#05070e", panel: "#0c101d", glassTop: "#10152a", grid: "#ffffff", line: "#1a2033",
+    title: "#ffffff", text: "#e6e9f5", dim: "#7d849b", faint: "#4a5068",
+    indigo: "#5e6ad2", violet: "#8b93ff", cyan: "#00e5ff", mongo: "#00ED64", nvidia: "#76B900", yc: "#FB651E",
+    w3c: "#3d8fd6", lf: "#4f7cff", java: "#f89820", ts: "#3178c6", rust: "#dea584", red: "#f85149",
+  },
+  light: {
+    bg: "#eef1f8", panel: "#ffffff", glassTop: "#ffffff", grid: "#0b1020", line: "#d5dbe7",
+    title: "#0b1020", text: "#141a2e", dim: "#4b5468", faint: "#8a93a6",
+    indigo: "#4f5bd5", violet: "#5b63e6", cyan: "#0e7490", mongo: "#00994d", nvidia: "#4f8a00", yc: "#d9480f",
+    w3c: "#1f6fb2", lf: "#3456d8", java: "#b85c00", ts: "#3178c6", rust: "#a0522d", red: "#cf222e",
+  },
 };
+// Mutable palette read by every component; setTheme swaps it in place.
+export const C = { ...THEMES.dark };
+export const setTheme = (name) => Object.assign(C, THEMES[name]);
 export const MONO = `'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace`;
 export const SANS = `'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif`;
 export const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -25,7 +37,7 @@ export const defs = (id, accent = C.indigo, accent2 = C.cyan) => `
       <stop offset="1" stop-color="${accent2}" stop-opacity=".8"/>
     </linearGradient>
     <linearGradient id="${id}-glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#10152a"/>
+      <stop offset="0" stop-color="${C.glassTop}"/>
       <stop offset="1" stop-color="${C.bg}"/>
     </linearGradient>
     <radialGradient id="${id}-orb" cx=".85" cy="0" r=".9">
@@ -33,7 +45,7 @@ export const defs = (id, accent = C.indigo, accent2 = C.cyan) => `
       <stop offset="1" stop-color="${accent}" stop-opacity="0"/>
     </radialGradient>
     <pattern id="${id}-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+      <path d="M24 0H0V24" fill="none" stroke="${C.grid}" stroke-opacity=".035"/>
     </pattern>
     <filter id="${id}-glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -82,7 +94,7 @@ export const write = (name, content) => writeFileSync(join(out, name), content);
 
 // ─── Hero: terminal boot HUD ─────────────────────────────────────────────
 // lines: array of [text, color][] segments, revealed one after another.
-export const hero = ({ name, subtitle, host, uplink, lines, statusText = "all systems nominal", nameGradient = ["#ffffff", C.violet, C.cyan], file = "hero.svg" }) => {
+export const hero = ({ name, subtitle, host, uplink, lines, statusText = "all systems nominal", nameGradient = [C.title, C.violet, C.cyan], file = "hero.svg" }) => {
   const W = 1200, id = "h";
   const x0 = 40, y0 = 196, lh = 23, fs = 14.5, step = 0.32;
   const H = y0 + lines.length * lh + 34;
@@ -196,7 +208,7 @@ export const mergedCard = ({ file, repo, number, mergedOn, commit, title, descri
   <text x="30" y="92" font-family="${SANS}" font-size="25" font-weight="700" letter-spacing="-.5" fill="${C.text}">${esc(title)}</text>
   ${description.map((d, i) => `<text x="30" y="${124 + i * 22}" font-family="${SANS}" font-size="14.5" fill="${C.dim}">${esc(d)}</text>`).join("")}
   ${chipRow(30, H - 44, chips)}
-  <text x="${W - 30}" y="${H - 28}" text-anchor="end" font-family="${MONO}" font-size="13"><tspan fill="${C.mongo}">+${additions}</tspan><tspan fill="${C.faint}"> / </tspan><tspan fill="#f85149">−${deletions}</tspan><tspan fill="${C.faint}"> · ${files} files</tspan></text>`;
+  <text x="${W - 30}" y="${H - 28}" text-anchor="end" font-family="${MONO}" font-size="13"><tspan fill="${C.mongo}">+${additions}</tspan><tspan fill="${C.faint}"> / </tspan><tspan fill="${C.red}">−${deletions}</tspan><tspan fill="${C.faint}"> · ${files} files</tspan></text>`;
   write(file, svg(W, H, content, `Merged: ${repo} #${number}, ${title}`));
 };
 
