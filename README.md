@@ -29,7 +29,7 @@
   <tr>
     <td align="center" width="340">
       <a href="https://www.nvidia.com/en-us/startups/"><img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/nvidia-inception-badge.svg" height="52" alt="Official NVIDIA Inception Member" /></a><br/>
-      <sub><b>NVIDIA Inception</b> · AI & accelerated computing</sub>
+      <sub><b>NVIDIA Inception</b> · GPU & accelerated computing</sub>
     </td>
     <td align="center" width="340">
       <a href="https://www.mongodb.com/startups"><img src="https://raw.githubusercontent.com/Kukzze/Kukzze/main/assets/mongodb-startups-badge.svg" height="52" alt="Official MongoDB for Startups Cohort" /></a><br/>
@@ -64,26 +64,26 @@
   <a href="https://www.excelmasters.in/">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="assets/light/v-excelmasters.svg" />
-    <img src="assets/v-excelmasters.svg" width="49.5%" alt="Excel Masters — deterministic AI spreadsheet intelligence" />
+    <img src="assets/v-excelmasters.svg" width="49.5%" alt="Excel Masters — deterministic spreadsheet engine & game intelligence" />
   </picture>
   </a>
   <a href="https://chic-builder.vercel.app/">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="assets/light/v-chicbuilder.svg" />
-    <img src="assets/v-chicbuilder.svg" width="49.5%" alt="Chic Builder — AI workouts and ranked fitness PWA" />
+    <img src="assets/v-chicbuilder.svg" width="49.5%" alt="Chic Builder — offline workout tracker and ranked fitness PWA" />
   </picture>
   </a>
 </p>
 
 <details>
-<summary><b>⟢ Architecture: how Excel Masters keeps AI math deterministic</b> <sub>(click to expand)</sub></summary>
+<summary><b>⟢ Architecture: how Excel Masters keeps formula execution deterministic</b> <sub>(click to expand)</sub></summary>
 <br/>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#05070e','primaryColor':'#0c101d','primaryTextColor':'#e6e9f5','primaryBorderColor':'#5e6ad2','lineColor':'#00e5ff','secondaryColor':'#10152a','tertiaryColor':'#05070e'}}}%%
 flowchart LR
-    U([User question]) --> L[LLM<br/>intent + explanation]
-    L -->|formula, not answer| T
+    U([User input]) --> P0[Formula Parser<br/>intent + grammar]
+    P0 -->|formula tokens| T
     subgraph FC [formula-core · zero-dep]
         T[Tokenizer] --> P[Parser<br/>operator precedence] --> A[(AST)] --> E[Evaluator]
     end

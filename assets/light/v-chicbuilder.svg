@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="Chic Builder — AI workouts &amp; ranked fitness. Free PWA.">
-  <title>Chic Builder — AI workouts &amp; ranked fitness. Free PWA.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="Chic Builder — Offline workout tracker &amp; ranked fitness PWA">
+  <title>Chic Builder — Offline workout tracker &amp; ranked fitness PWA</title>
   <defs>
     <linearGradient id="vchicbuildersvg-border" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#5b63e6" stop-opacity=".9"/>
@@ -37,9 +37,9 @@
   <circle cx="517.94" cy="36" r="4" fill="none" stroke="#00994d" class="pulse"/>
   <text x="560" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#00994d">LIVE</text>
   <text x="30" y="80" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="-.6" fill="#141a2e">Chic Builder</text>
-  <text x="30" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#4b5468">AI workouts &amp; ranked fitness. Free PWA.</text>
+  <text x="30" y="110" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#4b5468">Offline workout tracker &amp; ranked fitness PWA</text>
   <line x1="30" y1="128" x2="560" y2="128" stroke="#d5dbe7"/>
-  <text x="30" y="152" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>AI workout generator &amp; daily task tracker</text><text x="30" y="177" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>Progressive overload &amp; multi-formula 1RM models</text><text x="30" y="202" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>Offline-first sync for uninterrupted gym sessions</text>
+  <text x="30" y="152" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>900+ exercise catalog &amp; custom routine builder</text><text x="30" y="177" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>Progressive overload &amp; multi-formula 1RM models</text><text x="30" y="202" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e" fill-opacity=".86"><tspan fill="#5b63e6">▸ </tspan>Offline-first sync for uninterrupted gym sessions</text>
   <g transform="translate(30,224)">
       <rect width="64.97" height="22" rx="11" fill="#141a2e" fill-opacity=".12" stroke="#141a2e" stroke-opacity=".45"/>
       <text x="32.485" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#141a2e">next.js</text>

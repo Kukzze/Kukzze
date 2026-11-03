@@ -57,14 +57,14 @@ treasury({ capital: CAPITAL_SECURED_USD, awsGranted: AWS_CREDITS_USD, awsUsed: A
 
 card({
   file: "v-excelmasters.svg", accent: C.mongo, accent2: C.indigo, kicker: "VENTURE · 01", title: "Excel Masters",
-  tagline: "Deterministic AI spreadsheet intelligence", status: "LIVE", statusColor: C.mongo,
-  bullets: ["AST compiler does the math. The LLM never guesses.", "SheetSense™ formula diagnostics, in the browser", "Hands-on formula arenas instead of passive video"],
+  tagline: "Deterministic spreadsheet engine & game intelligence", status: "LIVE", statusColor: C.mongo,
+  bullets: ["AST compiler executes formulas with strict deterministic accuracy", "SheetSense™ formula diagnostics, in the browser", "Hands-on formula arenas instead of passive video"],
   chips: [["react", C.ts], ["typescript", C.ts], ["ast", C.violet], ["vite", C.violet]],
 });
 card({
   file: "v-chicbuilder.svg", accent: C.violet, accent2: C.mongo, kicker: "VENTURE · 02", title: "Chic Builder",
-  tagline: "AI workouts & ranked fitness. Free PWA.", status: "LIVE", statusColor: C.mongo,
-  bullets: ["AI workout generator & daily task tracker", "Progressive overload & multi-formula 1RM models", "Offline-first sync for uninterrupted gym sessions"],
+  tagline: "Offline workout tracker & ranked fitness PWA", status: "LIVE", statusColor: C.mongo,
+  bullets: ["900+ exercise catalog & custom routine builder", "Progressive overload & multi-formula 1RM models", "Offline-first sync for uninterrupted gym sessions"],
   chips: [["next.js", C.text], ["mongodb", C.mongo], ["pwa", C.violet], ["kinematics", C.cyan]],
 });
 card({
