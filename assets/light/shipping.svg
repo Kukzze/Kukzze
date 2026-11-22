@@ -27,55 +27,55 @@
   <rect x=".5" y=".5" width="1199" height="423" rx="14" fill="none" stroke="url(#bd)"/>
   <circle cx="36" cy="35" r="4" fill="#00994d"/><circle cx="36" cy="35" r="4" fill="none" stroke="#00994d" class="pulse"/>
   <text x="50" y="39" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.5" fill="#0e7490">SHIPPING LOG · @KUKZZE</text>
-  <text x="1170" y="39" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8a93a6">synced 2026-11-22 06:38 UTC · github graphql</text>
+  <text x="1170" y="39" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8a93a6">synced 2026-11-22 19:30 UTC · github graphql</text>
   <text x="30" y="80" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="14"><tspan fill="#00994d">❯ </tspan><tspan fill="#141a2e">git log </tspan><tspan fill="#4b5468">--all-repos --author=kukzze -n 8</tspan></text><g class="f" style="animation-delay:0.30s">
-    <text x="30" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">37cb1bd</text>
-    <text x="112" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
-    <circle cx="186" cy="103.5" r="4.5" fill="#dea584"/>
-    <text x="198" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="108" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">fix(ci): install mold on linux runners and build portable release bin…</text>
+    <text x="30" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">75e3d53</text>
+    <text x="112" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
+    <circle cx="186" cy="103.5" r="4.5" fill="#4b5468"/>
+    <text x="198" y="108" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">voidsmp-resourcepack</text>
+    <text x="396" y="108" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">docs: add readme</text>
   </g><g class="f" style="animation-delay:0.42s">
-    <text x="30" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">733d6e1</text>
-    <text x="112" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
+    <text x="30" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">ab346c1</text>
+    <text x="112" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
     <circle cx="186" cy="133.5" r="4.5" fill="#dea584"/>
     <text x="198" y="138" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="138" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">chore(progress): refresh ledger commit references</text>
+    <text x="396" y="138" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">docs(readme): describe makeup, human enemies, facade detail and --sho…</text>
   </g><g class="f" style="animation-delay:0.54s">
-    <text x="30" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">cb75a08</text>
-    <text x="112" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
+    <text x="30" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">b648e64</text>
+    <text x="112" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
     <circle cx="186" cy="163.5" r="4.5" fill="#dea584"/>
     <text x="198" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="168" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(release): implement nextjs companion portal, steamworks sdk, dep…</text>
+    <text x="396" y="168" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(character): animate bodies without simulated velocity from their…</text>
   </g><g class="f" style="animation-delay:0.66s">
-    <text x="30" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">255f6a2</text>
-    <text x="112" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
+    <text x="30" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">7152481</text>
+    <text x="112" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
     <circle cx="186" cy="193.5" r="4.5" fill="#dea584"/>
     <text x="198" y="198" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="198" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(ui): implement diegetic cyberpunk hud, 28-slot inventory grid, o…</text>
+    <text x="396" y="198" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(creator): add lipstick, eyeshadow and blush with colour palettes…</text>
   </g><g class="f" style="animation-delay:0.78s">
-    <text x="30" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">665efb5</text>
-    <text x="112" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
+    <text x="30" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">371b16c</text>
+    <text x="112" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
     <circle cx="186" cy="223.5" r="4.5" fill="#dea584"/>
     <text x="198" y="228" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="228" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(audio): implement dynamic adaptive music stems, 3d spatial audio…</text>
+    <text x="396" y="228" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(enemies): dress syndicate enemies as fitted human operatives wit…</text>
   </g><g class="f" style="animation-delay:0.90s">
-    <text x="30" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">12773a4</text>
-    <text x="112" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 21</text>
+    <text x="30" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">aee8d86</text>
+    <text x="112" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
     <circle cx="186" cy="253.5" r="4.5" fill="#dea584"/>
     <text x="198" y="258" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
-    <text x="396" y="258" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(network): implement dual-mode transport, client prediction rollb…</text>
+    <text x="396" y="258" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">feat(world): add floor ledges, pilasters, parapets, ac units, drainpi…</text>
   </g><g class="f" style="animation-delay:1.02s">
-    <text x="30" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">e5b6552</text>
-    <text x="112" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 31</text>
-    <circle cx="186" cy="283.5" r="4.5" fill="#3178c6"/>
-    <text x="198" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
-    <text x="396" y="288" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">Merge pull request #17 from Kukzze/docs/benchmarks-harness</text>
+    <text x="30" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">9178820</text>
+    <text x="112" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Nov 22</text>
+    <circle cx="186" cy="283.5" r="4.5" fill="#dea584"/>
+    <text x="198" y="288" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">neon-veil</text>
+    <text x="396" y="288" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">docs(readme): add full project page with screenshots, features, contr…</text>
   </g><g class="f" style="animation-delay:1.14s">
-    <text x="30" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">4394000</text>
+    <text x="30" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#0e7490">e5b6552</text>
     <text x="112" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#8a93a6" xml:space="preserve">Oct 31</text>
     <circle cx="186" cy="313.5" r="4.5" fill="#3178c6"/>
     <text x="198" y="318" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="13" fill="#5b63e6">mongo-next-sentinel</text>
-    <text x="396" y="318" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">docs(benchmarks): add reproduction methodology and runner documentation</text>
+    <text x="396" y="318" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#141a2e">Merge pull request #17 from Kukzze/docs/benchmarks-harness</text>
   </g><line x1="30" y1="364" x2="1170" y2="364" stroke="#d5dbe7" stroke-dasharray="2 6"/>
-  <text x="30" y="390" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.5" fill="#8a93a6">LATEST RELEASES</text><g transform="translate(180,375)"><rect width="140.4" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="70.2" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">neon-veil v1.0.0</text></g><g transform="translate(330.4,375)"><rect width="214.4" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="107.2" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">mongo-next-sentinel v1.1.0</text></g><text class="cur" x="1170" y="390" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="14" fill="#141a2e">▍</text>
+  <text x="30" y="390" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.5" fill="#8a93a6">LATEST RELEASES</text><g transform="translate(180,375)"><rect width="192.20000000000002" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="96.10000000000001" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">voidsmp-resourcepack v1</text></g><g transform="translate(382.20000000000005,375)"><rect width="140.4" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="70.2" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">neon-veil v1.2.0</text></g><g transform="translate(532.6,375)"><rect width="214.4" height="22" rx="11" fill="#00994d" fill-opacity=".1" stroke="#00994d" stroke-opacity=".45"/><text x="107.2" y="15" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="12" fill="#00994d">mongo-next-sentinel v1.1.0</text></g><text class="cur" x="1170" y="390" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace" font-size="14" fill="#141a2e">▍</text>
 </svg>
